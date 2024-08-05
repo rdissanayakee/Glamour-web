@@ -188,7 +188,7 @@ body, html {
     font-size: 2.5rem;
     font-family: var(--font-family-heading);
     margin-bottom: 5px;
-    color: #112d4e;   
+    color:  #001f3f;   
 }
 
 
@@ -215,7 +215,7 @@ body, html {
 
 .H1{
     font-size: 75px;
-    color: #112d4e;
+    color: #001f3f;
 }
 
 

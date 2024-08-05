@@ -1,0 +1,334 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --accent-color: #ccc;
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-brand: 'Cinzel', serif;
+    --font-family-heading: 'Dosis', sans-serif;
+    --padding-default: 20px;
+    --transition-speed: 0.3s;
+}
+
+
+/* Global Styles and Resets */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-base);
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color:  #112d4e;
+    color: var(--secondary-color);
+    padding: 0rem 2rem;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.navbar .brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--font-family-brand);
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+}
+
+.navbar .nav-links li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.navbar .right-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .nav-icon {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+}
+
+.navbar .nav-icon i {
+    font-size: 1.2rem;
+}
+
+.navbar .nav-icon:hover {
+    color: var(--accent-color);
+}
+
+.search__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 0.1rem 0.8rem;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    background-color: #f9f9f9;
+    max-width: 150px;
+    margin: 0;
+    position: relative;
+}
+
+.search__icon {
+    font-size: 1rem;
+    color: black;
+    margin-right: 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.search__input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 0;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+}
+
+/* Nav Bar Hover Underline Animation */
+.nav-links li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Adjust the text color as needed */
+    padding-bottom: 5px; /* Adjust as needed */
+    display: inline-block;
+}
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: white; /* Color of the underline */
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+
+/* Hover and focus styles */
+.search__container:hover, .search__input:focus {
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.search__container:hover .search__icon, .search__input:focus + .search__icon {
+    color: rgb(0, 0, 0);
+    transform: rotate(90deg);
+}
+
+.search__container:hover .search__input, .search__input:focus {
+    width: 100px;
+    opacity: 1;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+    .search__container {
+        max-width: 100%;
+    }
+}
+
+/* Scroll-to-top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    display: none;
+    transition: opacity var(--transition-speed);
+    z-index: 1000;
+}
+
+.scroll-to-top.visible {
+    display: block;
+    opacity: 0.7;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-info, .send-message {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.send-message form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-message label {
+    margin: 10px 0 5px;
+}
+
+.send-message input, .send-message textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:70%;
+}
+
+.send-message button {
+    padding: 10px;
+    background-color: #112d4e;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.send-message button:hover {
+    background-color: #112d4e;
+}
+
+.right-side iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #112d4e; 
+    color: #dbe2ef;
+    padding: 30px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-section {
+    max-width: 300px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    color: #dbe2ef;
+    font-family: 'Krona One', sans-serif;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #dbe2ef;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #dbe2ef;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #f0f0f0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
