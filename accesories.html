@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour</title>
+    <link rel="stylesheet" href="accesories.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+			
+	
+	
+
+    <link rel="stylesheet" href="accesories.css">
+    <script src="accesories.js"></script>
+    <script src="accesories.js"></script>
+</head>
+<body>
+    <button id="scrollToTopButton" class="scroll-to-top">↑</button>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="left-section">
+                <a href="home.html" class="brand">Glamour</a>
+                <ul class="nav-links">
+
+                    <li><a href="Product-M.html">MEN</a></li>
+                    <li><a href="Product-F.html">WOMEN</a></li>
+                    <li><a href="Product-K.html">KIDS</a></li>
+					<li><a href="Product-K.html">HOME & DECO</a></li>
+					<li><a href="Product-K.html">ACCESORIES</a></li>
+					<li><a href="Product-K.html">PERSONAL CARE</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li>
+                      <div class="search__container">
+                        <i class="fas fa-search search__icon"></i>
+                        <input class="search__input" type="text" placeholder="Search">
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+                <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+            </div>
+        </div>
+    </nav>
+
+
+    
+        <div class="hero-section">
+            <h1 class="ml12"><b>Women's Clothing</b></h1>
+            <p class="ml12">Unleash your inner fashionista with our exclusive designs and timeless pieces. At GLAMOUR, we believe in empowering women through style. Discover unique looks that make a statement and celebrate your individuality."</p>
+        </div>
+        
+    </div>
+
+
+<!-- Main Content -->
+<div class="container main-content">
+    <div class="row">
+        <div class="col-md-3">
+
+        <div class="col-md-9">
+            <!-- Products Section -->
+            <div class="filters">
+                <form>
+                    <div class="filter-item">
+                        <label for="category"><i class="filter-icon fas fa-tshirt"></i> Category</label>
+                        <select id="category" name="category">
+                            <option value="">All Categories</option>
+                            <option value="shirts">Shirts</option>
+                            <option value="pants">Pants</option>
+                            <option value="jackets">Jackets</option>
+                            <!-- Add more categories as needed -->
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="price"><i class="filter-icon fas fa-dollar-sign"></i> Price</label>
+                        <input type="number" id="price" name="price" placeholder="Max Price">
+                    </div>
+                    <div class="filter-item">
+                        <label for="size"><i class="filter-icon fas fa-ruler-vertical"></i> Size</label>
+                        <select id="size" name="size">
+                            <option value="">All Sizes</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <!-- Add more sizes as needed -->
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="color"><i class="filter-icon fas fa-palette"></i> Color</label>
+                        <select id="color" name="color">
+                            <option value="">All Colors</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="black">Black</option>
+                            <option value="white">White</option>
+                            <!-- Add more colors as needed -->
+                        </select>
+                    </div>
+                    <button type="submit">Apply Filters</button>
+                </form>
+            </div>
+
+            <div class="products-container">
+                <!-- Product Rows -->
+                <div class="row product-row">
+                    <!-- Product Item Template (Repeat as needed) -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="c:\Users\Dinusha Sewwandi\Desktop\website\website images\Women images\bottom 1.jpeg" alt="Product 1" class="product-img primary">
+                                <img src="c:\Users\Dinusha Sewwandi\Desktop\website\website images\Women images\bottom 13.jpeg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>LLS Mini Dress</h5>
+                                <p>12,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat the product item template for other products -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women2-1.jpg" alt="Product 1" class="product-img primary">
+                                <img src="images/women2-2.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Antoinette Mini Dress</h5>
+                                <p>16,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women3-1.jpg" alt="Product 1" class="product-img primary">
+                                <img src="images/women3-2.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Ollie Sherpa Zip Thru</h5>
+                                <p>14,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women4-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women4-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>E One Piece Swimsuit</h5>
+                                <p>8,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women5-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women5-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>350 Signature Hoodie</h5>
+                                <p>17,499 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women6-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women6-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>ALT Bikini Top</h5>
+                                <p>13,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women7-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women7-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Daisy Supply Hoodie</h5>
+                                <p>13,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women8-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women8-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Tank Pyjama Set</h5>
+                                <p>7,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women9-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women9-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Nora Cropped Blazer</h5>
+                                <p>14,499 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women10-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women10-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Astra Sleeveless Dress</h5>
+                                <p>21,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women11-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women11-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Summer Heritage Tee</h5>
+                                <p>4,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women12-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women12-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Wander Knit Sweater</h5>
+                                <p>14,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women13-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women13-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Dawson Mohair Cardigan</h5>
+                                <p>12,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women14-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women14-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Marlow Cropped Jumper</h5>
+                                <p>7,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women15-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women15-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Classic Down Black Vest</h5>
+                                <p>13,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="images/women16-1.webp" alt="Product 1" class="product-img primary">
+                                <img src="images/women16-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Skull Crest Relaxed Tee</h5>
+                                <p>4,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ... Other products go here ... -->
+                </div>
+                <!-- End of Product Rows -->
+            </div>
+            <!-- End of Products Section -->
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+	
+		
+			<footer class="footer">
+				<div class="footer-container">
+					<div class="footer-section">
+						<h2 class="footer-brand">GLAMOUR</h2>
+						<p>GLAMOUR, retail chain takes pride in its Sri Lankan roots but offers a world-class retail experience that drives customer loyalty while simultaneously setting new benchmarks in customer-centricity to take the art of retailing to a new level.</p>
+					</div>
+					<div class="footer-section">
+						<h3>COMPANY & OUR POLICIES</h3>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Shipping Policy</a></li>
+							<li><a href="#">Returns & Exchanges Policy</a></li>
+							<li><a href="#">Terms of Service</a></li>
+						</ul>
+					</div>
+					<div class="footer-section">
+						<h3>CONTACT US</h3>
+						<p>Order Updates - (077) 053 3426</p>
+						<p>General Email - glamour@gmail.com</p>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="social-icons">
+						<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+						<a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+					</div>
+					<p>&copy; 2024 Online Store. All rights reserved</p>
+				</div>
+			</footer>
+			
+	   
+	
+	
+	
+	
+
+	
+	
+		</body>
+	</html>
