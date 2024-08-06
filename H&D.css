@@ -211,17 +211,17 @@ body, html {
 
 
 /* Hover and focus styles */
-.search_container:hover, .search_input:focus {
+.search__container:hover, .search__input:focus {
   border-color: rgb(0, 0, 0);
   background-color: white;
 }
 
-.search_container:hover .searchicon, .searchinput:focus + .search_icon {
+.search__container:hover .search__icon, .search__input:focus + .search__icon {
   color: rgb(0, 0, 0);
   transform: rotate(90deg);
 }
 
-.search_container:hover .searchinput, .search_input:focus {
+.search__container:hover .search__input, .search__input:focus {
   width: 100px;
   opacity: 1;
 }
