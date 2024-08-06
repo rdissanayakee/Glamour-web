@@ -1,4 +1,4 @@
-:root {
+ :root {
     --primary-color: #000;
     --secondary-color: #fff;
     --accent-color: #ccc;
@@ -195,7 +195,7 @@ body, html {
 .scroll-to-top:hover {
     opacity: 1;
 }
-.container {
+.H1container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
