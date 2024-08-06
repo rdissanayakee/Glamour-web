@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider Example</title>
-   
-    <!-- Your custom CSS -->
+    <title>Glamour Clothings</title>
     <link rel="stylesheet" type="text/css" href="index.css"/>
-    <script src="kids.js"></script>
+    <script src="index.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-</head>
 
 <body>
     <!-- Navigation Bar -->
@@ -25,19 +21,18 @@
             <div class="left-section">
                 <a href="index.html" class="brand">Glamour</a>
                 <ul class="nav-links">
-
-                    <li><a href="Product-M.html">MEN</a></li>
-                    <li><a href="Product-F.html">WOMEN</a></li>
-                    <li><a href="Product-K.html">KIDS</a></li>
-					<li><a href="Product-K.html">HOME & DECO</a></li>
-					<li><a href="Product-K.html">ACCESORIES</a></li>
-					<li><a href="Product-K.html">PERSONAL CARE</a></li>
-                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="men's collection.html">MEN</a></li>
+                    <li><a href="women's collection.html">WOMEN</a></li>
+                    <li><a href="kids.html">KIDS</a></li>
+                    <li><a href="Home&Deco.html">HOME & DECO</a></li>
+                    <li><a href="accesories.html">ACCESSORIES</a></li>
+                    <li><a href="#">PERSONAL CARE</a></li>
+                    <li><a href="Aboutus.html">ABOUT US</a></li>
                     <li>
                       <div class="search__container">
                         <i class="fas fa-search search__icon"></i>
                         <input class="search__input" type="text" placeholder="Search">
-                    </div>
+                      </div>
                     </li>
                 </ul>
             </div>
@@ -48,8 +43,68 @@
         </div>
     </nav>
 
-<!-- Slideshow animation -->
-
+    <!-- Slideshow animation -->
+    <section class="slider-container">
+        <div class="slider-images">
+            <div class="slider-img">
+                <img src="Home-page-images/Slide.jpg" alt="1" />
+                <h1>Men</h1>
+                <div class="details">
+                    <h2>Men</h2>
+                    <p>Shop Now >></p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Home-page-images/Slide 2.jpg" alt="2" />
+                <h1>Womn</h1>
+                <div class="details">
+                    <h2>Women</h2>
+                    <p>Shop now >></p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Home-page-images/Slide 3.jpg" alt="3" />
+                <h1>Kids</h1>
+                <div class="details">
+                    <h2>Kids</h2>
+                    <p>Shop now >></p>
+                </div>
+            </div>
+            <div class="slider-img active">
+                <img src="Home-page-images/Slide 4.jpg" alt="4" />
+                <h1>Acies</h1>
+                <div class="details">
+                    <h2>Acries</h2>
+                    <p>Shop now >></p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Home-page-images/Slide 5.jpg" alt="5" />
+                <h1>Personal Care</h1>
+                <div class="details">
+                    <h2>Personal Care</h2>
+                    <p>Shop now >></p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="Home-page-images/Slide 6.jpg" alt="6" />
+                <h1>Home And Deco</h1>
+                <div class="details">
+                    <h2>Home And Deco</h2>
+                    <p>Shop now >></p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <script>
+      $(document).ready(function () {
+          $(".slider-img").on("click", function () {
+              $(".slider-img").removeClass("active");
+              $(this).addClass("active");
+          });
+      });
+  </script>
 
 
 </body>
