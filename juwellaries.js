@@ -1,4 +1,4 @@
-// Search Bar Animation 
+// Search Bar Animations
 document.addEventListener("DOMContentLoaded", function() {
     const searchIcon = document.querySelector('.search__icon');
     const searchInput = document.querySelector('.search__input');
