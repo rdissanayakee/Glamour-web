@@ -3,6 +3,8 @@
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   
   .nav-links1 {
@@ -18,11 +20,14 @@
   
   .nav-links1 li a {
     text-decoration: none;
-    color: #000000; /* Text color */
+    color: #112D4E; /* Text color similar to the image */
     font-size: 20px; /* Adjust font size */
     font-weight: 400; /* Adjust font weight */
-    padding-bottom: 5px;
+    padding: 10px 20px; /* Adjust padding for button-like appearance */
+    border: 1px solid #CCCCCC; /* Border color */
+    border-radius: 10px; /* Rounded corners */
     display: inline-block;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
   
   /* Hover Underline Animation */
@@ -40,6 +45,14 @@
   .nav-links1 li a:hover::after {
     width: 100%;
   }
+  
+  .nav-links1 li a:hover {
+    background-color: #F0F0F0; /* Background color on hover */
+    color: #000000; /* Text color on hover */
+  }
+  
+  
+
   /* CSS Variables */
   :root {
     --primary-color: #000;
@@ -244,11 +257,10 @@
   
   
   /* Main Content Styling */
-  .main-content {
+.main-content {
     padding-top: 50px;
     align-items: center;
   }
-  
   
   .open-text {
     display: flex;
@@ -260,25 +272,23 @@
   }
   
   .open-text h1 {
-    font-size: 4em;
+    font-size: 2em; /* Adjusted font size for h1 */
     margin-bottom: 0;
     text-align: center;
     font-family: 'Krona One', sans-serif;
     color: #112D4E;
   }
-/* Video Banner */
-.banner-video-container {
-  width: 100%;
-  max-height: 500px;
-  overflow: hidden;
-  position: relative; /* Required for absolute positioning */
-}
-
-.banner-video {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+  
+  .open-text p {
+    font-size: 1em; /* Adjusted font size for paragraph */
+    font-family: Arial, sans-serif;
+    color: #112D4E;
+    margin-top: 10px; /* Optional: add margin to space out from the h1 */
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
   /* Filters */
   .filters {
     
