@@ -100,3 +100,10 @@ document.addEventListener("DOMContentLoaded", function() {
       observer.observe(item);
     });
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const heading = document.querySelector('.animated-heading');
+    setTimeout(() => {
+        heading.classList.add('show');
+    }, 500); // Delay to give a smooth loading effect
+});
