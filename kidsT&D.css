@@ -260,43 +260,42 @@
     opacity: 1;
   }
   
-  
-  
-  /* Main Content Styling */
-  .main-content {
-    padding-top: 50px;
-    align-items: center;
-  }
-  
-  
-  .open-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 20vh; /* This makes the div take up the full height of the viewport */
-  }
-  
-  .open-text h1 {
-    font-size: 4em;
-    margin-bottom: 0;
-    text-align: center;
-    font-family: 'Krona One', sans-serif;
-    color: #112D4E;
-  }
-  .open-text p {
-    font-size: 1em; /* Adjusted font size for paragraph */
-    font-family: Arial, sans-serif;
-    color: #112D4E;
-    margin-top: 10px; /* Optional: add margin to space out from the h1 */
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-  }
+/* Main Content Styling */
+.main-content {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Ensure children are aligned in a column */
+}
 
+.open-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vh; /* This makes the div take up the full height of the viewport */
+}
 
-  
+.open-text h1 {
+  font-size: 1.5em; /* Reduced font size for h1 */
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  color: #112D4E;
+}
+
+.open-text p {
+  font-size: 1em; /* Font size for paragraph */
+  font-family: Arial, sans-serif;
+  color: #112D4E;
+  margin-top: 10px; /* Optional: add margin to space out from the h1 */
+  text-align: center; /* Justify text alignment */
+  margin-left: auto; /* Center paragraph */
+  margin-right: auto; /* Center paragraph */
+  width: 50%; /* Optional: specify width to control paragraph width */
+}
+
   /* Filters */
   .filters {
     
