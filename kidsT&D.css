@@ -285,7 +285,15 @@
     font-family: 'Krona One', sans-serif;
     color: #112D4E;
   }
-
+  .open-text p {
+    font-size: 1em; /* Adjusted font size for paragraph */
+    font-family: Arial, sans-serif;
+    color: #112D4E;
+    margin-top: 10px; /* Optional: add margin to space out from the h1 */
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
 
 
   

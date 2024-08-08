@@ -269,3 +269,71 @@ h1 {
 .slider-img.active .details p, .slider-img.active .details h2 {
     display: block;
 }
+
+
+/*categories*/
+
+.container {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #112d4e;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.category img { 
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.category span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 1.4em;
+    font-family: 'Krona One', sans-serif;;
+}
+
+.category.men {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.category.women {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.category.kids {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.category.personal-care {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.category.home-deco {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.category.accessories {
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
