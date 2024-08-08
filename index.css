@@ -273,7 +273,7 @@ h1 {
 
 /*categories*/
 
-.container {
+.category-container{
     display: grid;
     gap: 10px;
     padding: 20px;
