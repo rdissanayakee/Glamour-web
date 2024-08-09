@@ -77,3 +77,33 @@ document.addEventListener('DOMContentLoaded', function() {
     );
   });
 
+//products animation
+document.addEventListener("DOMContentLoaded", function() {
+    const observerOptions = {
+      root: null, // Use the viewport as the container
+      rootMargin: "0px",
+      threshold: 0.2 // Trigger when 20% of the element is visible
+    };
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add("animate");
+            observer.unobserve(entry.target);
+          }, index * 100); // Delay each item by 100ms
+        }
+      });
+    }, observerOptions);
+  
+    document.querySelectorAll('.product-item').forEach(item => {
+      observer.observe(item);
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const heading = document.querySelector('.animated-heading');
+    setTimeout(() => {
+        heading.classList.add('show');
+    }, 500); // Delay to give a smooth loading effect
+});
