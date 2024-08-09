@@ -1,3 +1,211 @@
+/* CSS Variables */
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --accent-color: #ccc;
+  --font-family-base: 'Montserrat', sans-serif;
+  --font-family-brand: 'Cinzel', serif;
+  --font-family-heading: 'Dosis', sans-serif;
+  --padding-default: 20px;
+  --transition-speed: 0.3s;
+}
+
+
+/* Global Styles and Resets */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation bar Styles */
+.navbar {
+  background-color:  #112d4e;
+  color: var(--secondary-color);
+  padding: 0rem 2rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.navbar .brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-family: var(--font-family-brand);
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar .nav-links li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar .nav-icon {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 400;
+}
+
+.navbar .nav-icon i {
+  font-size: 1.2rem;
+}
+
+.navbar .nav-icon:hover {
+  color: var(--accent-color);
+}
+
+.search__container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  padding: 0.1rem 0.8rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  background-color: #f9f9f9;
+  max-width: 150px;
+  margin: 0;
+  position: relative;
+}
+
+.search__icon {
+  font-size: 1rem;
+  color: black;
+  margin-right: 0.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  background-color: transparent;
+  width: 0;
+  opacity: 0;
+  transition: width 0.5s ease, opacity 0.5s ease;
+}
+
+/* Nav Bar Hover Underline Animation */
+.nav-links li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px; 
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000; 
+  padding-bottom: 5px; 
+  display: inline-block;
+}
+
+.nav-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  background-color: white; 
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+
+/* Hover and focus styles */
+.search__container:hover, .search__input:focus {
+  border-color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.search__container:hover .search__icon, .search__input:focus + .search__icon {
+  color: rgb(0, 0, 0);
+  transform: rotate(90deg);
+}
+
+.search__container:hover .search__input, .search__input:focus {
+  width: 100px;
+  opacity: 1;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+  .search__container {
+      max-width: 100%;
+  }
+}
+
+  /* Open text Styling */
+  .main-content {
+    padding-top: 50px;
+    align-items: center;
+  }
+  
+  .open-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20vh; 
+  }
+  
+  .open-text h1 {
+    font-size: 2em; 
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    color: #112D4E;
+  }
+  
+  .open-text p {
+    font-size: 1em; 
+    font-family: 'Inter', sans-serif;
+    color: #112D4E;
+    margin-top: 10px; 
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
 /* Secondary Navigation Bar */
 .secondary-navbar {
     padding: 1rem 2rem;
@@ -10,7 +218,8 @@
   .nav-links1 {
     list-style: none;
     display: flex;
-    gap: 2rem; /* Adjust gap between links */
+    gap: 2rem; 
+    font-family: 'Inter', sans-serif;
   }
   
   .nav-links1 li {
@@ -20,23 +229,22 @@
   
   .nav-links1 li a {
     text-decoration: none;
-    color: #112D4E; /* Text color similar to the image */
-    font-size: 20px; /* Adjust font size */
-    font-weight: 400; /* Adjust font weight */
-    padding: 10px 20px; /* Adjust padding for button-like appearance */
-    border: 1px solid #CCCCCC; /* Border color */
-    border-radius: 10px; /* Rounded corners */
+    color: #112D4E; 
+    font-size: 20px; 
+    font-weight: 400; 
+    padding: 10px 20px; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 10px; 
     display: inline-block;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
-  
-  /* Hover Underline Animation */
+ 
   .nav-links1 li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #000000; /* Underline color */
+    background-color: #000000;
     bottom: 0;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -47,358 +255,10 @@
   }
   
   .nav-links1 li a:hover {
-    background-color: #F0F0F0; /* Background color on hover */
-    color: #000000; /* Text color on hover */
+    background-color: #F0F0F0; 
+    color: #000000; 
   }
-  
-  
 
-  /* CSS Variables */
-  :root {
-    --primary-color: #000;
-    --secondary-color: #fff;
-    --accent-color: #ccc;
-    --font-family-base: 'Montserrat', sans-serif;
-    --font-family-brand: 'Cinzel', serif;
-    --font-family-heading: 'Dosis', sans-serif;
-    --padding-default: 20px;
-    --transition-speed: 0.3s;
-  }
-  
-  
-  /* Global Styles and Resets */
-  body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-family-base);
-  }
-  
-  /* Navbar Styles */
-  .navbar {
-    background-color:  #112d4e;
-    color: var(--secondary-color);
-    padding: 0rem 2rem;
-  }
-  
-  .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .left-section {
-    display: flex;
-    align-items: center;
-    gap: 4.5rem;
-  }
-  
-  .navbar .brand {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-family: var(--font-family-brand);
-  }
-  
-  .navbar .nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 2.1rem;
-  }
-  
-  .navbar .nav-links li a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    font-weight: 400;
-  }
-  
-  .navbar .right-section {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .navbar .nav-icon {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 400;
-  }
-  
-  .navbar .nav-icon i {
-    font-size: 1.2rem;
-  }
-  
-  .navbar .nav-icon:hover {
-    color: var(--accent-color);
-  }
-  
-  .search__container {
-    display: flex;
-    align-items: center;
-    border: 1px solid #000000;
-    border-radius: 25px;
-    padding: 0.1rem 0.8rem;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
-    background-color: #f9f9f9;
-    max-width: 150px;
-    margin: 0;
-    position: relative;
-  }
-  
-  .search__icon {
-    font-size: 1rem;
-    color: black;
-    margin-right: 0.5rem;
-    transition: color 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .search__input {
-    border: none;
-    outline: none;
-    flex: 1;
-    padding: 0.3rem;
-    font-size: 0.9rem;
-    background-color: transparent;
-    width: 0;
-    opacity: 0;
-    transition: width 0.5s ease, opacity 0.5s ease;
-  }
-  
-  /* Nav Bar Hover Underline Animation */
-  .nav-links li {
-    display: inline-block;
-    position: relative;
-    margin-right: 20px; /* Adjust as needed */
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #000; /* Adjust the text color as needed */
-    padding-bottom: 5px; /* Adjust as needed */
-    display: inline-block;
-  }
-  
-  .nav-links li a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px; /* Adjust the thickness of the underline */
-    background-color: white; /* Color of the underline */
-    bottom: 0;
-    left: 0;
-    transition: width 0.3s ease-in-out;
-  }
-  
-  .nav-links li a:hover::after {
-    width: 100%;
-  }
-  
-  
-  /* Hover and focus styles */
-  .search__container:hover, .search__input:focus {
-    border-color: rgb(0, 0, 0);
-    background-color: white;
-  }
-  
-  .search__container:hover .search__icon, .search__input:focus + .search__icon {
-    color: rgb(0, 0, 0);
-    transform: rotate(90deg);
-  }
-  
-  .search__container:hover .search__input, .search__input:focus {
-    width: 100px;
-    opacity: 1;
-  }
-  
-  /* Mobile-friendly styles */
-  @media (max-width: 768px) {
-    .search__container {
-        max-width: 100%;
-    }
-  }
-  
-  
-  /* Scroll-to-top button */
-  .scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    font-size: 20px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border: none;
-    border-radius: 10%;
-    cursor: pointer;
-    display: none;
-    transition: opacity var(--transition-speed);
-    z-index: 1000;
-  }
-  
-  .scroll-to-top.visible {
-    display: block;
-    opacity: 0.7;
-  }
-  
-  .scroll-to-top:hover {
-    opacity: 1;
-  }
-  
-  
-  
-  /* Main Content Styling */
-.main-content {
-    padding-top: 50px;
-    align-items: center;
-  }
-  
-  .open-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 20vh; /* This makes the div take up the full height of the viewport */
-  }
-  
-  .open-text h1 {
-    font-size: 2em; /* Adjusted font size for h1 */
-    margin-bottom: 0;
-    text-align: center;
-    font-family: 'Krona One', sans-serif;
-    color: #112D4E;
-  }
-  
-  .open-text p {
-    font-size: 1em; /* Adjusted font size for paragraph */
-    font-family: Arial, sans-serif;
-    color: #112D4E;
-    margin-top: 10px; /* Optional: add margin to space out from the h1 */
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-  }
-  
-  /* Filters */
-  .filters {
-    
-    z-index: 1000;
-    background-color: var(--secondary-color); /* White background for filters */
-    padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0.2, 0, 0, 0.5); /* Subtle shadow for a modern look */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-  }
-  
-  /* Filters Title */
-  .filters h3 {
-    font-size: 20px; /* Slightly larger font size for better visibility */
-    margin-bottom: 20px;
-    color: var(--primary-color); /* Black text for filter titles */
-    font-weight: bold;
-    text-align: center; /* Center text */
-  }
-  
-  /* Filters Form */
-  .filters form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; /* Space between form items */
-    justify-content: center; /* Center form items horizontally */
-    width: 100%; /* Full width to align items centrally */
-  }
-  
-  /* Filter Item Container */
-  .filters .filter-item {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    flex: 1;
-    min-width: 150px; /* Ensures minimum width for filter items */
-    align-items:center;
-  }
-  
-  /* Filter Labels */
-  .filters label {
-    font-size: 18px;
-    color: var(--primary-color); /* Black text for filter labels */
-    display: flex;
-    align-items:center;
-    gap: 8px; /* Space between icon and label */
-  }
-  
-  /* Filter Selects and Inputs */
-  .filters select, 
-  .filters input[type="text"], 
-  .filters input[type="number"] {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
-    color: var(--primary-color);
-    background-color: var(--secondary-color); /* White background for inputs */
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for inputs */
-    width: 100%; /* Full width of filter item */
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-  
-  /* Filter Buttons */
-  .filters button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 10px; /* Space above the button */
-  }
-  
-  .filters button:hover {
-    background-color: #333; /* Darker background color on hover */
-  }
-  
-  /* Filter Icons */
-  .filters .filter-icon {
-    color: var(--primary-color); /* Black color for icons */
-    font-size: 18px;
-  }
-  
-  /* Adjustments for small screens */
-  @media (max-width: 768px) {
-    .filters {
-        padding: 15px;
-    }
-  
-    .filters form {
-        flex-direction: column;
-        gap: 10px;
-    }
-  
-    .filters .filter-item {
-        min-width: 100%; /* Full width on small screens */
-    }
-  }
-  
-  
   /* Products */
   .products-container {
     padding: 0 10px;
@@ -408,7 +268,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -20px; /* Reduced margin for better alignment */
+    margin: 0 -20px; 
   }
   
   .col-md-3,
@@ -458,17 +318,18 @@
   .product-info {
     padding: 15px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
   }
   
   .product-info h5 {
-    font-size: 18px; /* Larger font size for product names */
+    font-size: 18px;
     margin-bottom: 5px;
-    color: var(--primary-color); /* Black text for product names */
+    color: #112D4E; 
   }
   
   .product-info p {
     font-size: px;
-    color: #666; /* Slightly lighter color for product descriptions */
+    color: #112D4E; 
   }
   
   .add-to-cart {
@@ -518,17 +379,17 @@
     }
   
     .product-item {
-        flex: 0 0 45%; /* Two cards per row on medium screens */
+        flex: 0 0 45%; 
         max-width: 45%;
-        margin: 5px; /* Reduced margin for better alignment */
+        margin: 5px; 
     }
   }
   
   @media (max-width: 576px) {
     .product-item {
-        flex: 0 0 100%; /* One card per row on small screens */
+        flex: 0 0 100%; 
         max-width: 100%;
-        margin: 5px; /* Reduced margin for better alignment */
+        margin: 5px; 
     }
   }
   
@@ -545,6 +406,8 @@
     max-height: 100px;
     object-fit: contain;
   }
+
+
   /* Footer styles */
   .footer {
     background-color: #112d4e; 
