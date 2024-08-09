@@ -337,3 +337,103 @@ h1 {
     grid-column: 3 / 5;
     grid-row: 2;
 }
+
+.paragraph-slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 40px auto; /* adjusted margin */
+    max-width: 100%; /* set max-width to 100% */
+}
+
+.slider-title {
+    padding: 0 2vw; /* adjusted padding */
+    font-size: 1.5rem; /* adjusted font size */
+    font-weight: 500;
+    margin-bottom: 2rem; /* adjusted margin */
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.slider-container {
+    padding: 0 2vw; /* adjusted padding */
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+.paragraph-card {
+    flex: 0 0 auto;
+    width: calc(25% - 20px); /* adjusted width using calc */
+    margin-right: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: -230px;
+}
+
+.paragraph-card:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-text {
+    font-size: 1rem; /* adjusted font size */
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.author-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-name {
+    font-size: 1.2rem; /* adjusted font size */
+    font-weight: 600;
+    color: #333;
+}
+
+.pre-btn, .nxt-btn {
+    border: none;
+    width: 5vw; /* adjusted width using vw unit */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn {
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img {
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img {
+    opacity: 1;
+}
