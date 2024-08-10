@@ -350,12 +350,12 @@ h1 {
     padding: 0 10vw;
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     text-transform: capitalize;
   }
   
   .feedback-container {
-    padding: 0 10vw;
+    padding: 3vw 10vw;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -452,4 +452,18 @@ h1 {
   .pre-fdb-btn:hover img,
   .nxt-fdb-btn:hover img {
     opacity: 1;
+  }
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+.brand-logos img {
+    margin: 0 20px;
+    max-height: 100px;
+    object-fit: contain;
   }
