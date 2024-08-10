@@ -1,3 +1,12 @@
+$(document).ready(function () {
+  $(".slider-img").on("click", function () {
+      $(".slider-img").removeClass("active");
+      $(this).addClass("active");
+  });
+});
+
+
+
 const feedbackContainer = document.querySelector('.feedback-container');
 const preFdbBtn = document.querySelector('.pre-fdb-btn');
 const nxtFdbBtn = document.querySelector('.nxt-fdb-btn');
