@@ -9,20 +9,22 @@
   .nav-links1 {
     list-style: none;
     display: flex;
-    gap: 2rem; /* Adjust gap between links */
+    gap: 2rem; 
+    font-family: 'Inter', sans-serif;
   }
+
   .nav-links1 li {
     display: inline-block;
     position: relative;
   }
   .nav-links1 li a {
     text-decoration: none;
-    color: #555555; /* Text color similar to the image */
-    font-size: 20px; /* Adjust font size */
-    font-weight: 400; /* Adjust font weight */
-    padding: 10px 20px; /* Adjust padding for button-like appearance */
-    border: 1px solid #CCCCCC; /* Border color */
-    border-radius: 10px; /* Rounded corners */
+    color: #555555; 
+    font-size: 20px;
+    font-weight: 400; 
+    padding: 10px 20px; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 10px; 
     display: inline-block;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
@@ -32,7 +34,7 @@
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #000000; /* Underline color */
+    background-color: #000000; 
     bottom: 0;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -41,8 +43,8 @@
     width: 100%;
   }
   .nav-links1 li a:hover {
-    background-color: #F0F0F0; /* Background color on hover */
-    color: #000000; /* Text color on hover */
+    background-color: #F0F0F0; 
+    color: #000000; 
   }
   /* Hover Underline Animation */
   .nav-links1 li a::after {
@@ -112,6 +114,7 @@
     display: flex;
     align-items: center;
     gap: 2.1rem;
+    font-family: 'Inter', sans-serif;
   }
   
   .navbar .nav-links li a {
@@ -184,13 +187,13 @@
   .nav-links li {
     display: inline-block;
     position: relative;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; /
   }
   
   .nav-links li a {
     text-decoration: none;
-    color: #000; /* Adjust the text color as needed */
-    padding-bottom: 5px; /* Adjust as needed */
+    color: #000; 
+    padding-bottom: 5px; 
     display: inline-block;
   }
   
@@ -198,8 +201,8 @@
     content: '';
     position: absolute;
     width: 0;
-    height: 2px; /* Adjust the thickness of the underline */
-    background-color: white; /* Color of the underline */
+    height: 2px;
+    background-color: white; 
     bottom: 0;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -265,7 +268,7 @@
   padding-top: 50px;
   display: flex;
   align-items: center;
-  flex-direction: column; /* Ensure children are aligned in a column */
+  flex-direction: column; 
 }
 
 .open-text {
@@ -274,11 +277,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 20vh; /* This makes the div take up the full height of the viewport */
+  height: 20vh; 
 }
 
 .open-text h1 {
-  font-size: 1.5em; /* Reduced font size for h1 */
+  font-size: 1.5em; 
   margin-bottom: 0;
   text-align: center;
   font-family: 'Krona One', sans-serif;
@@ -286,47 +289,46 @@
 }
 
 .open-text p {
-  font-size: 1em; /* Font size for paragraph */
+  font-size: 1em; 
   font-family: Arial, sans-serif;
   color: #112D4E;
-  margin-top: 10px; /* Optional: add margin to space out from the h1 */
-  text-align: center; /* Justify text alignment */
-  margin-left: auto; /* Center paragraph */
-  margin-right: auto; /* Center paragraph */
-  width: 50%; /* Optional: specify width to control paragraph width */
+  margin-top: 10px; 
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
 }
 
   /* Filters */
   .filters {
     
     z-index: 1000;
-    background-color: var(--secondary-color); /* White background for filters */
+    background-color: var(--secondary-color);
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0.2, 0, 0, 0.5); /* Subtle shadow for a modern look */
+    box-shadow: 0 2px 4px rgba(0.2, 0, 0, 0.5); 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-  }
+    align-items: center; 
   
   /* Filters Title */
   .filters h3 {
-    font-size: 20px; /* Slightly larger font size for better visibility */
+    font-size: 20px; 
     margin-bottom: 20px;
-    color: var(--primary-color); /* Black text for filter titles */
+    color: var(--primary-color); 
     font-weight: bold;
-    text-align: center; /* Center text */
+    text-align: center;
   }
   
   /* Filters Form */
   .filters form {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* Space between form items */
-    justify-content: center; /* Center form items horizontally */
-    width: 100%; /* Full width to align items centrally */
+    gap: 15px; 
+    justify-content: center; 
+    width: 100%; 
   }
   
   /* Filter Item Container */
@@ -335,17 +337,17 @@
     flex-direction: column;
     gap: 5px;
     flex: 1;
-    min-width: 150px; /* Ensures minimum width for filter items */
+    min-width: 150px; 
     align-items:center;
   }
   
   /* Filter Labels */
   .filters label {
     font-size: 18px;
-    color: var(--primary-color); /* Black text for filter labels */
+    color: var(--primary-color); 
     display: flex;
     align-items:center;
-    gap: 8px; /* Space between icon and label */
+    gap: 8px; 
   }
   
   /* Filter Selects and Inputs */
@@ -357,10 +359,10 @@
     border-radius: 5px;
     font-size: 14px;
     color: var(--primary-color);
-    background-color: var(--secondary-color); /* White background for inputs */
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for inputs */
-    width: 100%; /* Full width of filter item */
-    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: var(--secondary-color); 
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); 
+    width: 100%; 
+    box-sizing: border-box; 
   }
   
   /* Filter Buttons */
@@ -376,16 +378,16 @@
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 10px; /* Space above the button */
+    margin-top: 10px;
   }
   
   .filters button:hover {
-    background-color: #333; /* Darker background color on hover */
+    background-color: #333;
   }
   
   /* Filter Icons */
   .filters .filter-icon {
-    color: var(--primary-color); /* Black color for icons */
+    color: var(--primary-color); 
     font-size: 18px;
   }
   
@@ -401,7 +403,7 @@
     }
   
     .filters .filter-item {
-        min-width: 100%; /* Full width on small screens */
+        min-width: 100%; 
     }
   }
   
@@ -415,7 +417,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -20px; /* Reduced margin for better alignment */
+    margin: 0 -20px; 
   }
   
   .col-md-3,
@@ -468,14 +470,14 @@
   }
   
   .product-info h5 {
-    font-size: 18px; /* Larger font size for product names */
+    font-size: 18px; 
     margin-bottom: 5px;
-    color: var(--primary-color); /* Black text for product names */
+    color: var(--primary-color); 
   }
   
   .product-info p {
     font-size: px;
-    color: #666; /* Slightly lighter color for product descriptions */
+    color: #666; 
   }
   
   .add-to-cart {
@@ -525,17 +527,17 @@
     }
   
     .product-item {
-        flex: 0 0 45%; /* Two cards per row on medium screens */
+        flex: 0 0 45%; 
         max-width: 45%;
-        margin: 5px; /* Reduced margin for better alignment */
+        margin: 5px; 
     }
   }
   
   @media (max-width: 576px) {
     .product-item {
-        flex: 0 0 100%; /* One card per row on small screens */
+        flex: 0 0 100%; 
         max-width: 100%;
-        margin: 5px; /* Reduced margin for better alignment */
+        margin: 5px; 
     }
   }
   
@@ -627,3 +629,4 @@
   .footer-bottom p {
     margin: 0;
   }
+}
