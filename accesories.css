@@ -452,6 +452,37 @@
         min-width: 100%; /* Full width on small screens */
     }
   }
+  /* sale banner css */
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fc6d6d;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.banner-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 40s linear infinite;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner-content span {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding: 0 50px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
   
   
   /* Products */
