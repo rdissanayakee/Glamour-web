@@ -18,12 +18,12 @@
   }
   .nav-links1 li a {
     text-decoration: none;
-    color: #555555; /* Text color similar to the image */
-    font-size: 20px; /* Adjust font size */
-    font-weight: 400; /* Adjust font weight */
-    padding: 10px 20px; /* Adjust padding for button-like appearance */
-    border: 1px solid #CCCCCC; /* Border color */
-    border-radius: 10px; /* Rounded corners */
+    color: #112D4E; 
+    font-size: 20px; 
+    font-weight: 400; 
+    padding: 10px 20px; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 10px; 
     display: inline-block;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
