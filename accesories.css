@@ -442,11 +442,13 @@
     font-size: 18px; /* Larger font size for product names */
     margin-bottom: 5px;
     color: var(--primary-color); /* Black text for product names */
+    color: #112D4E;
   }
   
   .product-info p {
     font-size: px;
     color: #666; /* Slightly lighter color for product descriptions */
+    color: #112D4E;
   }
   
   .add-to-cart {
