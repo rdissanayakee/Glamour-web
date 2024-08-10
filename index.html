@@ -6,13 +6,16 @@
     <title>Glamour Clothings</title>
 
     <link rel="stylesheet" type="text/css" href="index.css"/>
-    <script src="index.js"></script>
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
 
 <body>
     <!-- Navigation Bar -->
@@ -26,7 +29,7 @@
                     <li><a href="kids.html">KIDS</a></li>
                     <li><a href="Home&Deco.html">HOME & DECO</a></li>
                     <li><a href="accesories.html">ACCESSORIES</a></li>
-                    <li><a href="#">PERSONAL CARE</a></li>
+                    <li><a href="personalcare.main.html">PERSONAL CARE</a></li>
                     <li><a href="Aboutus.html">ABOUT US</a></li>
                     <li>
                       <div class="search__container">
@@ -138,50 +141,62 @@
   <br>
   <br>
 
-  <!-- Paragraph Slider -->
-  <section class="paragraph-slider">
-    <h2 class="slider-title">What Our Customers Say</h2>
-    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
-    <div class="slider-container">
-        <div class="paragraph-card">
-            <p class="testimonial-text">
-                "I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."
-            </p>
-            <div class="testimonial-author">
-                <img src="Home-page-images/Slide 2.jpg" alt="User 1" class="author-thumb">
-                <h3 class="author-name">Jane Doe</h3>
-            </div>
+  <!-- FEEDBACK CARDS SLIDER -->
+  <section class="feedback">
+      <h2 class="feedback-category">What Our Customers Say</h2>
+      <div class="feedback-container">
+        <div class="feedback-card">
+          <div class="feedback-image">
+            <img src="Home-page-images/f1.jpg" alt="Feedback 1" class="feedback-thumb">
+          </div>
+          <div class="feedback-info">
+            <p class="feedback-text">"I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."</p>
+            <h3 class="feedback-author">John Doe <span>Customer</span></h3>
+          </div>
         </div>
-        <div class="paragraph-card">
-            <p class="testimonial-text">
-                "Absolutely love it! Exceeded my expectations and the support team was incredibly helpful. Will definitely buy again."
-            </p>
-            <div class="testimonial-author">
-                <img src="Home-page-images/Slide 3.jpg" alt="User 2" class="author-thumb">
-                <h3 class="author-name">John Smith</h3>
-            </div>
+        <div class="feedback-card">
+          <div class="feedback-image">
+            <img src="Home-page-images/f2.jpg" alt="Feedback 1" class="feedback-thumb">
+          </div>
+          <div class="feedback-info">
+            <p class="feedback-text">"I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."</p>
+            <h3 class="feedback-author">John Doe <span>Customer</span></h3>
+          </div>
         </div>
-        <div class="paragraph-card">
-            <p class="testimonial-text">
-                "A great purchase! The product is of excellent quality, and the delivery was prompt. Highly satisfied."
-            </p>
-            <div class="testimonial-author">
-                <img src="Home-page-images/Slide 4.jpg" alt="User 3" class="author-thumb">
-                <h3 class="author-name">Emily Johnson</h3>
-            </div>
+        <div class="feedback-card">
+          <div class="feedback-image">
+            <img src="Home-page-images/f3.jpg" alt="Feedback 1" class="feedback-thumb">
+          </div>
+          <div class="feedback-info">
+            <p class="feedback-text">"I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."</p>
+            <h3 class="feedback-author">John Doe <span>Customer</span></h3>
+          </div>
         </div>
-        <div class="paragraph-card">
-            <p class="testimonial-text">
-                "I'm so happy with my purchase! The product works perfectly, and the customer service was outstanding."
-            </p>
-            <div class="testimonial-author">
-                <img src="Home-page-images/Slide 5.jpg" alt="User 4" class="author-thumb">
-                <h3 class="author-name">Michael Brown</h3>
-            </div>
+        <div class="feedback-card">
+          <div class="feedback-image">
+            <img src="Home-page-images/f2.jpg" alt="Feedback 1" class="feedback-thumb">
+          </div>
+          <div class="feedback-info">
+            <p class="feedback-text">"I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."</p>
+            <h3 class="feedback-author">John Doe <span>Customer</span></h3>
+          </div>
         </div>
-    </div>
-</section>
+        <div class="feedback-card">
+          <div class="feedback-image">
+            <img src="Home-page-images/f2.jpg" alt="Feedback 1" class="feedback-thumb">
+          </div>
+          <div class="feedback-info">
+            <p class="feedback-text">"I had an amazing experience with this product! The quality is top-notch, and the service was fantastic. I highly recommend it to everyone."</p>
+            <h3 class="feedback-author">John Doe <span>Customer</span></h3>
+          </div>
+        </div>
+      </div>
+      <button class="pre-fdb-btn"><img src="Home-page-images/arrow.svg" alt="Previous"></button>
+      <button class="nxt-fdb-btn"><img src="Home-page-images/arrow.svg" alt="Next"></button>
+    </section>
 
+
+    
+    <script src="index.js"></script>
 </body>
 </html>
