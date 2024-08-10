@@ -25,6 +25,7 @@
     border-radius: 10px; /* Rounded corners */
     display: inline-block;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-family: 'Inter', sans-serif;
   }
   /* Hover Underline Animation */
   .nav-links1 li a::after {
@@ -121,6 +122,7 @@
     display: flex;
     align-items: center;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
   
   .navbar .right-section {
@@ -279,11 +281,20 @@
   }
   
   .open-text h1 {
-    font-size: 4em;
+    font-size: 2em;
     margin-bottom: 0;
     text-align: center;
     font-family: 'Krona One', sans-serif;
     color: #112D4E;
+  }
+  .open-text p {
+    font-size: 1em; 
+    font-family: 'Inter', sans-serif;
+    color: #112D4E;
+    margin-top: 10px; 
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
   }
 
 
@@ -458,6 +469,7 @@
   .product-info {
     padding: 15px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
   }
   
   .product-info h5 {
