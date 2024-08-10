@@ -122,6 +122,7 @@
     display: flex;
     align-items: center;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
   
   .navbar .right-section {
