@@ -211,23 +211,28 @@ body, html {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #333;
+h1 {
+    color:#112d4e;
 }
+
 
 .contact-info p {
     margin: 10px 0;
+    color:#112d4e;
 }
 
 .send-message form {
     display: flex;
     flex-direction: column;
+    color:#112d4e;
 }
 
 .send-message label {
     margin: 10px 0 5px;
 }
-
+h2{
+    color:#112d4e;
+}
 .send-message input, .send-message textarea {
     padding: 10px;
     margin-bottom: 10px;
