@@ -300,8 +300,8 @@ body, html {
 .banner-container {
   width: 100%;
   overflow: hidden;
-  background-color: #ff5050;
-  padding: 10px 0;
+  background-color: #fc6d6d;
+  padding: 20px 0;
   box-sizing: border-box;
 }
 
