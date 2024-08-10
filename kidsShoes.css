@@ -415,7 +415,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -20px; /* Reduced margin for better alignment */
+    margin: 0 -20px; 
   }
   
   .col-md-3,
