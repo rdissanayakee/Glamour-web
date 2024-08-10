@@ -3,9 +3,6 @@
   --primary-color: #000;
   --secondary-color: #fff;
   --accent-color: #ccc;
-  --font-family-base: 'Montserrat', sans-serif;
-  --font-family-brand: 'Cinzel', serif;
-  --font-family-heading: 'Dosis', sans-serif;
   --padding-default: 20px;
   --transition-speed: 0.3s;
 }
@@ -42,7 +39,7 @@ body, html {
   font-weight: 600;
   color: var(--secondary-color);
   text-decoration: none;
-  font-family: var(--font-family-brand);
+  font-family: 'Cinzel', serif;
 }
 
 .navbar .nav-links {
