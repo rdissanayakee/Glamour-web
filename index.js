@@ -5,8 +5,13 @@ $(document).ready(function () {
   });
 });
 
+// Heading Animation
+const animatedHeading = document.querySelector('.animated-heading');
+animatedHeading.classList.add('show');
 
 
+
+//Feedback Animation
 const feedbackContainer = document.querySelector('.feedback-container');
 const preFdbBtn = document.querySelector('.pre-fdb-btn');
 const nxtFdbBtn = document.querySelector('.nxt-fdb-btn');

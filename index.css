@@ -366,6 +366,52 @@ h1 {
 }
 
 
+
+/* new arrivals styling */
+.container {
+  text-align: center;
+}
+
+.animated-heading {
+  font-size: 3em;
+  color: #112D4E;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.animated-heading::before,
+.animated-heading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #112D4E;
+  transform: translateY(-50%);
+}
+
+.animated-heading::before {
+  left: -60px;
+}
+
+.animated-heading::after {
+  right: -60px;
+}
+
+.animated-heading.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
 /* FEEDBACK CARDS */
 .feedback {
     position: relative;
@@ -613,3 +659,184 @@ h1 {
 .footer-bottom p {
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
