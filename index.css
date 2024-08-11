@@ -162,6 +162,11 @@ body, html {
     opacity: 1;
 }
 
+
+
+
+
+
 /* Slideshow Styles */
 .slider-container {
     width: calc(100% - 100px); /* full width minus 50px margins on each side */
@@ -271,6 +276,11 @@ h1 {
 }
 
 
+
+
+
+
+
 /*categories*/
 
 .category-container {
@@ -351,12 +361,20 @@ h1 {
     text-decoration: none;
   }
 
+
+
+
+
+
+
+
+
 /* Video Banner */
 .banner-video-container {
   width: 100%;
   max-height: 600px;
   overflow: hidden;
-  position: relative; /* Required for absolute positioning */
+  position: relative;
 }
 
 .banner-video {
@@ -367,7 +385,13 @@ h1 {
 
 
 
-/* new arrivals styling */
+
+
+
+
+
+
+/* Trending styling */
 .container {
   text-align: center;
 }
@@ -408,6 +432,10 @@ h1 {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+
 
 
 
@@ -515,6 +543,7 @@ box-sizing: border-box;
 .product-item:hover .add-to-cart {
   display: block;
 }
+
 
 
 
@@ -639,6 +668,11 @@ box-sizing: border-box;
 
 
 
+
+
+
+
+
 /* Feature Styling */
 .features {
   display: flex;
@@ -655,6 +689,9 @@ box-sizing: border-box;
 .feature {
   text-align: center;
   width: 20%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
 }
 
 .icon {
@@ -673,9 +710,19 @@ box-sizing: border-box;
   color: #666;
 }
 
+.feature.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
 
   /* Brand Logos */
-
 
 .brand-logos {
     display: flex;
@@ -690,6 +737,11 @@ box-sizing: border-box;
     max-height: 100px;
     object-fit: contain;
   }
+
+
+
+
+
 
 
 
