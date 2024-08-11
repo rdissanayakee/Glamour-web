@@ -379,12 +379,12 @@
   .product-info h5 {
     font-size: 18px; 
     margin-bottom: 5px;
-    color: var(--primary-color); 
+    color: #112D4E; 
   }
   
   .product-info p {
     font-size: px;
-    color: #666; 
+    color: #112D4E; 
   }
   
   .add-to-cart {
