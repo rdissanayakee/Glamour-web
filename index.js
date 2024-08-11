@@ -93,3 +93,28 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(item);
   });
 });
+
+
+
+
+// Get the overlay text element
+const overlayText = document.querySelector('.overlay-text');
+
+// Define the animation
+const animation = overlayText.animate([
+  {
+    opacity: 0,
+    transform: 'translate(-50%, -50%) scale(0.5)',
+  },
+  {
+    opacity: 1,
+    transform: 'translate(-50%, -50%) scale(1)',
+  },
+], {
+  duration: 2000,
+  easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+  fill: 'forwards',
+});
+
+// Play the animation
+animation.play();
