@@ -372,11 +372,11 @@ h1 {
     font-size: 20px;
     z-index: 1;
     text-shadow: 0 0 10px rgb(255, 255, 255);
-    transition: opacity 0.3s ease-in-out; /* add transition to .overlay-info */
+    transition: opacity 0.3s ease-in-out;
   }
   
   .category-card:hover .overlay-info {
-    opacity: 0; /* hide .overlay-info when .category-overlay is active */
+    opacity: 0;
   }
 
 
@@ -391,6 +391,8 @@ h1 {
   max-height: 500px;
   overflow: hidden;
   position: relative;
+  border-top: 20px solid #000;
+  border-bottom: 20px solid #000;
 }
 
 .banner-video {
