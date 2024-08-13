@@ -330,7 +330,7 @@
    /* Video Banner */
 .banner-video-container {
   width: 100%;
-  max-height: 500px;
+  max-height: 600px;
   overflow: hidden;
   position: relative; /* Required for absolute positioning */
 }
@@ -342,114 +342,37 @@
 }
 
   
-  /* Filters */
-  .filters {
-    
-    z-index: 1000;
-    background-color: var(--secondary-color); /* White background for filters */
-    padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0.2, 0, 0, 0.5); /* Subtle shadow for a modern look */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
+ /* sale banner css */
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fc6d6d;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.banner-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 40s linear infinite;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner-content span {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding: 0 50px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0%);
   }
-  
-  /* Filters Title */
-  .filters h3 {
-    font-size: 20px; /* Slightly larger font size for better visibility */
-    margin-bottom: 20px;
-    color: var(--primary-color); /* Black text for filter titles */
-    font-weight: bold;
-    text-align: center; /* Center text */
+  100% {
+      transform: translateX(-100%);
   }
-  
-  /* Filters Form */
-  .filters form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; /* Space between form items */
-    justify-content: center; /* Center form items horizontally */
-    width: 100%; /* Full width to align items centrally */
-  }
-  
-  /* Filter Item Container */
-  .filters .filter-item {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    flex: 1;
-    min-width: 150px; /* Ensures minimum width for filter items */
-    align-items:center;
-  }
-  
-  /* Filter Labels */
-  .filters label {
-    font-size: 18px;
-    color: var(--primary-color); /* Black text for filter labels */
-    display: flex;
-    align-items:center;
-    gap: 8px; /* Space between icon and label */
-  }
-  
-  /* Filter Selects and Inputs */
-  .filters select, 
-  .filters input[type="text"], 
-  .filters input[type="number"] {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
-    color: var(--primary-color);
-    background-color: var(--secondary-color); /* White background for inputs */
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for inputs */
-    width: 100%; /* Full width of filter item */
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-  
-  /* Filter Buttons */
-  .filters button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 10px; /* Space above the button */
-  }
-  
-  .filters button:hover {
-    background-color: #333; /* Darker background color on hover */
-  }
-  
-  /* Filter Icons */
-  .filters .filter-icon {
-    color: var(--primary-color); /* Black color for icons */
-    font-size: 18px;
-  }
-  
-  /* Adjustments for small screens */
-  @media (max-width: 768px) {
-    .filters {
-        padding: 15px;
-    }
-  
-    .filters form {
-        flex-direction: column;
-        gap: 10px;
-    }
-  
-    .filters .filter-item {
-        min-width: 100%; /* Full width on small screens */
-    }
-  }
+}
   
   
   /* Products */
