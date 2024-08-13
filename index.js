@@ -120,6 +120,55 @@ animation.play();
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.2
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+              setTimeout(() => {
+                  entry.target.classList.add("animate");
+                  observer.unobserve(entry.target);
+              }, index * 100);
+          }
+      });
+  }, observerOptions);
+
+  document.querySelectorAll('.product-item').forEach(item => {
+      observer.observe(item);
+  });
+
+  // Handle pop-up notification for add-to-cart
+  document.querySelectorAll('.add-to-cart').forEach(button => {
+      button.addEventListener('click', function() {
+          const popup = document.getElementById('popupNotification');
+          popup.classList.add('show');
+          
+          setTimeout(() => {
+              popup.classList.remove('show');
+          }, 3000); // Hide after 3 seconds
+      });
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.add-to-cart').forEach(button => {
+      button.addEventListener('click', function() {
+          const popup = document.getElementById('popupNotification');
+          const itemName = button.closest('.product-item').querySelector('.product-info h5').innerText;
+          document.getElementById('itemName').innerText = itemName;
+          popup.classList.add('show');
+
+
+      });
+  });
+});
+
+
+
 
 
 
