@@ -7,7 +7,6 @@
   --transition-speed: 0.3s;
 }
 
-
 /* Global Styles and Resets */
 body, html {
   margin: 0;
@@ -15,9 +14,9 @@ body, html {
   box-sizing: border-box;
 }
 
-/* Navigationbar Styles */
+/* Navigation Bar Styles */
 .navbar {
-  background-color:  #112d4e;
+  background-color: #112d4e;
   color: var(--secondary-color);
   padding: 0rem 2rem;
 }
@@ -90,7 +89,7 @@ body, html {
   border: 1px solid #000000;
   border-radius: 25px;
   padding: 0.1rem 0.8rem;
-  transition: border-color 0.3s ease, background-color 0.3s ease;
+  transition: border-color var(--transition-speed) ease, background-color var(--transition-speed) ease;
   background-color: #f9f9f9;
   max-width: 150px;
   margin: 0;
@@ -101,7 +100,7 @@ body, html {
   font-size: 1rem;
   color: black;
   margin-right: 0.5rem;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color var(--transition-speed) ease, transform var(--transition-speed) ease;
   cursor: pointer;
 }
 
@@ -121,13 +120,13 @@ body, html {
 .nav-links li {
   display: inline-block;
   position: relative;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #000; 
-  padding-bottom: 5px; 
+  color: #000;
+  padding-bottom: 5px;
   display: inline-block;
 }
 
@@ -135,8 +134,8 @@ body, html {
   content: '';
   position: absolute;
   width: 0;
-  height: 2px; 
-  background-color: white; 
+  height: 2px;
+  background-color: white;
   bottom: 0;
   left: 0;
   transition: width 0.3s ease-in-out;
@@ -146,8 +145,7 @@ body, html {
   width: 100%;
 }
 
-
-/* Hover and focus styles */
+/* Hover and Focus Styles */
 .search__container:hover, .search__input:focus {
   border-color: rgb(0, 0, 0);
   background-color: white;
@@ -163,14 +161,14 @@ body, html {
   opacity: 1;
 }
 
-/* Mobile-friendly styles */
+/* Mobile-friendly Styles */
 @media (max-width: 768px) {
   .search__container {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
-/* Open text Styling */
+/* Open Text Styling */
 .open-text {
   display: flex;
   flex-direction: column;
@@ -190,18 +188,19 @@ body, html {
 
 /* Video Banner */
 .banner-video-container {
-    width: 100%;
-    max-height: 600px;
-    overflow: hidden;
-    position: relative; /* Required for absolute positioning */
-}
-.banner-video {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  position: relative; /* Required for absolute positioning */
 }
 
-/* new arrivals styling */
+.banner-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* New Arrivals Styling */
 .container {
   text-align: center;
 }
@@ -255,7 +254,7 @@ body, html {
 .nav-links1 {
   list-style: none;
   display: flex;
-  gap: 2rem; 
+  gap: 2rem;
   font-family: 'Inter', sans-serif;
 }
 
@@ -266,12 +265,12 @@ body, html {
 
 .nav-links1 li a {
   text-decoration: none;
-  color: #112D4E; 
-  font-size: 20px; 
-  font-weight: 400; 
+  color: #112D4E;
+  font-size: 20px;
+  font-weight: 400;
   padding: 10px 20px;
   border: 1px solid #CCCCCC;
-  border-radius: 10px; 
+  border-radius: 10px;
   display: inline-block;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -281,7 +280,7 @@ body, html {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: #000000; 
+  background-color: #000000;
   bottom: 0;
   left: 0;
   transition: width 0.3s ease-in-out;
@@ -292,11 +291,11 @@ body, html {
 }
 
 .nav-links1 li a:hover {
-  background-color: #F0F0F0; 
-  color: #000000; 
+  background-color: #F0F0F0;
+  color: #000000;
 }
 
-/* sale banner css */
+/* Sale Banner CSS */
 .banner-container {
   width: 100%;
   overflow: hidden;
@@ -321,10 +320,10 @@ body, html {
 
 @keyframes scroll {
   0% {
-      transform: translateX(0%);
+    transform: translateX(0%);
   }
   100% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 
@@ -344,9 +343,9 @@ body, html {
   height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
-  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .popup-notification.show {
@@ -383,16 +382,15 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -20px; 
+  margin: 0 -20px;
 }
 
 .col-md-3,
 .col-sm-6 {
-padding: 10px;
-flex: 1 1 21%;
-box-sizing: border-box;
+  padding: 10px;
+  flex: 1 1 21%;
+  box-sizing: border-box;
 }
-
 
 .product-item {
   background-color: #fff;
@@ -436,14 +434,14 @@ box-sizing: border-box;
 }
 
 .product-info h5 {
-  font-size: 18px; 
+  font-size: 18px;
   margin-bottom: 5px;
-  color: #112D4E; 
+  color: #112D4E;
   font-family: 'Inter', sans-serif;
 }
 
 .product-info p {
-  font-size: px;
+  font-size: 14px; /* Fixed font-size */
   color: #112D4E;
   font-family: 'Inter', sans-serif;
 }
@@ -479,33 +477,33 @@ box-sizing: border-box;
   display: block;
 }
 
-/* Adjustments for small screens */
+/* Adjustments for Small Screens */
 @media (max-width: 991.98px) {
   .filters {
-      position: static;
-      padding-bottom: 20px;
-      border: none;
-      border-radius: 0;
-      margin-left: 0;
+    position: static;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 0;
+    margin-left: 0;
   }
 
   .products-container {
-      padding-left: 0;
-      padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .product-item {
-      flex: 0 0 45%; 
-      max-width: 45%;
-      margin: 5px; 
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin: 5px;
   }
 }
 
 @media (max-width: 576px) {
   .product-item {
-      flex: 0 0 100%; 
-      max-width: 100%;
-      margin: 5px; 
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 5px;
   }
 }
 
@@ -523,9 +521,9 @@ box-sizing: border-box;
   object-fit: contain;
 }
 
-/* Footer styles */
+/* Footer Styles */
 .footer {
-  background-color: #112d4e; 
+  background-color: #112d4e;
   color: #dbe2ef;
   padding: 30px 0;
   width: 100%;
