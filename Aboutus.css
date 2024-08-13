@@ -163,7 +163,67 @@ body, html {
     width: 100px;
     opacity: 1;
   }
-  
+  /*added*/
+
+
+ /* Animation Keyframes */
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Animation Classes */
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-in:nth-of-type(1) {
+  animation-delay: 0.2s;
+}
+
+.fade-in:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+
+.fade-in:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+
+.fade-in:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+
+.fade-in:nth-of-type(5) {
+  animation-delay: 1s;
+}
+
+/* Adjusting hero-section styles */
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-family: 'Cinzel', serif;
+  color: #001f3f;   
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 auto; /* Center the paragraph */
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/*new added end*/
+
+
 
 /* Main Content Styling */
 .main-content {
@@ -183,6 +243,50 @@ body, html {
     background-color: var(--secondary-color); /* White background for the hero section */
     color: var(--primary-color); /* Black text */
     margin-top: 10px; /* Space from the navbar */
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Initial State */
+.about-us-image,
+.about-us-text {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Applying the Animation with the animate class */
+.about-us-container.animate .about-us-image {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.about-us-container.animate .about-us-text {
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* Additional Styles for About Us Section */
+.about-us-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about-us-image {
+  width: 100px; /* Adjust based on your image size */
+  margin: 0 auto;
+}
+
+.about-us-text {
+  font-size: 1.2rem;
+  color: #112d4e; /* Adjust based on your theme */
 }
 
 .hero-section h1 {
