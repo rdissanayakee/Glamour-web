@@ -219,15 +219,15 @@ body, html {
 
 h1 {
     font-family: "Jost", sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
     color: #fff;
     position: absolute;
     top: 50%;
-    left: +20%;
-    right: +20%;
+    left: +10%;
+    right: +10%;
     transform: rotate(270deg);
     transition: 0.7s ease;
 }
