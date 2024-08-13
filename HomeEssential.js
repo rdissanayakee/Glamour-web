@@ -100,3 +100,26 @@ document.addEventListener("DOMContentLoaded", function() {
       observer.observe(item);
     });
   });
+   // Handle pop-up notification for add-to-cart
+   document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', function() {
+        const popup = document.getElementById('popupNotification');
+        popup.classList.add('show');
+        
+        setTimeout(() => {
+            popup.classList.remove('show');
+        }, 3000); // Hide after 3 seconds
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', function() {
+        const popup = document.getElementById('popupNotification');
+        const itemName = button.closest('.product-item').querySelector('.product-info h5').innerText;
+        document.getElementById('itemName').innerText = itemName;
+        popup.classList.add('show');
+
+
+    });
+});
+});
