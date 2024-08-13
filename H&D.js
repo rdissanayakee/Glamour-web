@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
-  // Text Animation
-  document.addEventListener('DOMContentLoaded', function() {
-    const heroSection = document.querySelector('.open-text');
-    const headings = heroSection.querySelectorAll('h1'); // Assuming your headings in this section are h1
-    const bannerVideo = document.querySelector('.banner-video-container');
+  //Text Animation
+document.addEventListener('DOMContentLoaded', function() {
+    const heroSection = document.querySelector('.hero-section');
+    const headings = heroSection.querySelectorAll('.ml12');
+    const button = heroSection.querySelector('button');
   
     // Use GSAP for animations
-    gsap.fromTo(bannerVideo, 
+    gsap.fromTo(button, 
         { opacity: 0, y: 20 }, 
         { 
             opacity: 1, 
@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     );
   });
+
   
   // Products Animation
   document.addEventListener("DOMContentLoaded", function() {
