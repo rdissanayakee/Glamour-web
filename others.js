@@ -1,4 +1,4 @@
-// Search Bar Animations
+// Search Bar Animation 
 document.addEventListener("DOMContentLoaded", function() {
     const searchIcon = document.querySelector('.search__icon');
     const searchInput = document.querySelector('.search__input');
@@ -17,23 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
             searchIcon.style.transform = 'rotate(0deg)';
             searchIcon.style.color = '#999';
         }
-    });
-
-    // Scroll to Top Button
-    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 300) {
-            scrollToTopBtn.style.display = "block";
-        } else {
-            scrollToTopBtn.style.display = "none";
-        }
-    });
-
-    scrollToTopBtn.addEventListener("click", function() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
     });
 });
 
@@ -75,14 +58,14 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     );
-  });
+});
 
-//products animation
+// Products Animation
 document.addEventListener("DOMContentLoaded", function() {
     const observerOptions = {
-      root: null, // Use the viewport as the container
+      root: null,
       rootMargin: "0px",
-      threshold: 0.2 // Trigger when 20% of the element is visible
+      threshold: 0.2
     };
   
     const observer = new IntersectionObserver((entries, observer) => {
@@ -91,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
           setTimeout(() => {
             entry.target.classList.add("animate");
             observer.unobserve(entry.target);
-          }, index * 100); // Delay each item by 100ms
+          }, index * 100); 
         }
       });
     }, observerOptions);
@@ -100,3 +83,51 @@ document.addEventListener("DOMContentLoaded", function() {
       observer.observe(item);
     });
   });
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    const observerOptions = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.2
+    };
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add("animate");
+                    observer.unobserve(entry.target);
+                }, index * 100);
+            }
+        });
+    }, observerOptions);
+  
+    document.querySelectorAll('.product-item').forEach(item => {
+        observer.observe(item);
+    });
+  
+    // Handle pop-up notification for add-to-cart
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', function() {
+            const popup = document.getElementById('popupNotification');
+            popup.classList.add('show');
+            
+            setTimeout(() => {
+                popup.classList.remove('show');
+            }, 3000); // Hide after 3 seconds
+        });
+    });
+  });
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', function() {
+            const popup = document.getElementById('popupNotification');
+            const itemName = button.closest('.product-item').querySelector('.product-info h5').innerText;
+            document.getElementById('itemName').innerText = itemName;
+            popup.classList.add('show');
+  
+  
+        });
+    });
+  });
+  
