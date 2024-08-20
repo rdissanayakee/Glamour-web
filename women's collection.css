@@ -201,9 +201,10 @@ body, html {
     object-fit: cover;
 }
 
-/* new arrivals styling */
+/* New Arrivals Styling */
 .container {
   text-align: center;
+  margin-top: 50px;
 }
 
 .animated-heading {
@@ -211,12 +212,12 @@ body, html {
   color: #112D4E;
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 1s ease-out, transform 1s ease-out;
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
   padding: 0 20px;
   font-family: 'Inter', sans-serif;
+  animation: fadeInUp 2s ease-out forwards; /* Trigger the animation */
 }
 
 .animated-heading::before,
@@ -228,6 +229,8 @@ body, html {
   height: 2px;
   background-color: #112D4E;
   transform: translateY(-50%);
+  opacity: 0;
+  animation: fadeInLine 2s ease-out forwards;
 }
 
 .animated-heading::before {
@@ -238,10 +241,30 @@ body, html {
   right: -60px;
 }
 
-.animated-heading.show {
-  opacity: 1;
-  transform: translateY(0);
+/* Keyframes for fade-in and move-up animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
+/* Keyframes for line animation */
+@keyframes fadeInLine {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 50px;
+  }
+}
+
 
 /* Secondary Navigation Bar */
 .secondary-navbar {

@@ -5,7 +5,7 @@
 .animated-heading {
   font-size: 3em;
   color: #112D4E;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(20px);
   transition: opacity 1s ease-out, transform 1s ease-out;
   letter-spacing: 2px;
