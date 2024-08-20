@@ -1,50 +1,33 @@
-// Search Bar Animation 
+// Search Bar Animation
 document.addEventListener("DOMContentLoaded", function() {
     const searchIcon = document.querySelector('.search__icon');
     const searchInput = document.querySelector('.search__input');
-
+  
     searchIcon.addEventListener('click', function() {
         searchInput.focus();
     });
-
+  
     searchInput.addEventListener('focus', function() {
         searchIcon.style.transform = 'rotate(90deg)';
-        searchIcon.style.color = '#007bff';
+        searchIcon.style.color = '#000'; // Update color to match your CSS (black)
     });
-
+  
     searchInput.addEventListener('blur', function() {
         if (searchInput.value === '') {
             searchIcon.style.transform = 'rotate(0deg)';
-            searchIcon.style.color = '#999';
+            searchIcon.style.color = 'black'; // Reset to black on blur
         }
     });
-
-    // Scroll to Top Button
-    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 300) {
-            scrollToTopBtn.style.display = "block";
-        } else {
-            scrollToTopBtn.style.display = "none";
-        }
-    });
-
-    scrollToTopBtn.addEventListener("click", function() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-});
-
-//Text Animation
-document.addEventListener('DOMContentLoaded', function() {
-    const heroSection = document.querySelector('.hero-section');
-    const headings = heroSection.querySelectorAll('.ml12');
-    const button = heroSection.querySelector('button');
+  });
+  
+  // Text Animation
+  document.addEventListener('DOMContentLoaded', function() {
+    const heroSection = document.querySelector('.open-text');
+    const headings = heroSection.querySelectorAll('h1'); // Assuming your headings in this section are h1
+    const bannerVideo = document.querySelector('.banner-video-container');
   
     // Use GSAP for animations
-    gsap.fromTo(button, 
+    gsap.fromTo(bannerVideo, 
         { opacity: 0, y: 20 }, 
         { 
             opacity: 1, 
@@ -76,13 +59,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     );
   });
-
-//products animation
-document.addEventListener("DOMContentLoaded", function() {
+  
+  // Products Animation
+  document.addEventListener("DOMContentLoaded", function() {
     const observerOptions = {
-      root: null, // Use the viewport as the container
+      root: null,
       rootMargin: "0px",
-      threshold: 0.2 // Trigger when 20% of the element is visible
+      threshold: 0.2
     };
   
     const observer = new IntersectionObserver((entries, observer) => {
@@ -91,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
           setTimeout(() => {
             entry.target.classList.add("animate");
             observer.unobserve(entry.target);
-          }, index * 100); // Delay each item by 100ms
+          }, index * 100); 
         }
       });
     }, observerOptions);
@@ -100,10 +83,51 @@ document.addEventListener("DOMContentLoaded", function() {
       observer.observe(item);
     });
   });
-
-  document.addEventListener("DOMContentLoaded", () => {
-    const heading = document.querySelector('.animated-heading');
-    setTimeout(() => {
-        heading.classList.add('show');
-    }, 500); // Delay to give a smooth loading effect
-});
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    const observerOptions = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.2
+    };
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add("animate");
+                    observer.unobserve(entry.target);
+                }, index * 100);
+            }
+        });
+    }, observerOptions);
+  
+    document.querySelectorAll('.product-item').forEach(item => {
+        observer.observe(item);
+    });
+  
+    // Handle pop-up notification for add-to-cart
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', function() {
+            const popup = document.getElementById('popupNotification');
+            popup.classList.add('show');
+            
+            setTimeout(() => {
+                popup.classList.remove('show');
+            }, 3000); // Hide after 3 seconds
+        });
+    });
+  });
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', function() {
+            const popup = document.getElementById('popupNotification');
+            const itemName = button.closest('.product-item').querySelector('.product-info h5').innerText;
+            document.getElementById('itemName').innerText = itemName;
+            popup.classList.add('show');
+  
+  
+        });
+    });
+  });
+  
