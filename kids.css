@@ -5,7 +5,7 @@
 .animated-heading {
   font-size: 3em;
   color: #112D4E;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(20px);
   transition: opacity 1s ease-out, transform 1s ease-out;
   letter-spacing: 2px;
@@ -38,69 +38,69 @@
   transform: translateY(0);
 }
 
+
 /* Secondary Navigation Bar */
 .secondary-navbar {
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.nav-links1 {
-  list-style: none;
-  display: flex;
-  gap: 2rem; 
-  font-family: 'Inter', sans-serif;
-}
-.nav-links1 li {
-  display: inline-block;
-  position: relative;
-}
-.nav-links1 li a {
-  text-decoration: none;
-  color: #112D4E; 
-  font-size: 20px; 
-  font-weight: 400; 
-  padding: 10px 20px; 
-  border: 1px solid #CCCCCC; 
-  border-radius: 10px; 
-  display: inline-block;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-/* Hover Underline Animation */
-.nav-links1 li a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: #000000; 
-  bottom: 0;
-  left: 0;
-  transition: width 0.3s ease-in-out;
-}
-.nav-links1 li a:hover::after {
-  width: 100%;
-}
-.nav-links1 li a:hover {
-  background-color: #F0F0F0; 
-  color: #000000; 
-}
-/* Hover Underline Animation */
-.nav-links1 li a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: #000000; 
-  bottom: 0;
-  left: 0;
-  transition: width 0.3s ease-in-out;
-}
-
-.nav-links1 li a:hover::after {
-  width: 100%;
-}
-
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .nav-links1 {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Adjust gap between links */
+  }
+  .nav-links1 li {
+    display: inline-block;
+    position: relative;
+  }
+  .nav-links1 li a {
+    text-decoration: none;
+    color: #555555; /* Text color similar to the image */
+    font-size: 20px; /* Adjust font size */
+    font-weight: 400; /* Adjust font weight */
+    padding: 10px 20px; /* Adjust padding for button-like appearance */
+    border: 1px solid #CCCCCC; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-family: 'Inter', sans-serif;
+  }
+  /* Hover Underline Animation */
+  .nav-links1 li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000000; /* Underline color */
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  .nav-links1 li a:hover::after {
+    width: 100%;
+  }
+  .nav-links1 li a:hover {
+    background-color: #F0F0F0; /* Background color on hover */
+    color: #000000; /* Text color on hover */
+  }
+  /* Hover Underline Animation */
+  .nav-links1 li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000000; /* Underline color */
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-links1 li a:hover::after {
+    width: 100%;
+  }
   /* CSS Variables */
   :root {
     --primary-color: #000;
@@ -154,6 +154,7 @@
     display: flex;
     align-items: center;
     gap: 2.1rem;
+    font-family: 'Inter', sans-serif;
   }
   
   .navbar .nav-links li a {
@@ -226,13 +227,13 @@
   .nav-links li {
     display: inline-block;
     position: relative;
-    margin-right: 20px; 
+    margin-right: 20px; /* Adjust as needed */
   }
   
   .nav-links li a {
     text-decoration: none;
-    color: #000; 
-    padding-bottom: 5px; 
+    color: #000; /* Adjust the text color as needed */
+    padding-bottom: 5px; /* Adjust as needed */
     display: inline-block;
   }
   
@@ -240,8 +241,8 @@
     content: '';
     position: absolute;
     width: 0;
-    height: 2px; 
-    background-color: white;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: white; /* Color of the underline */
     bottom: 0;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -317,7 +318,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 20vh; 
+    height: 20vh; /* This makes the div take up the full height of the viewport */
   }
   
   .open-text h1 {
@@ -328,37 +329,20 @@
     color: #112D4E;
   }
 
-   /* Video Banner */
+  /* Video Banner */
 .banner-video-container {
-  width: 100%;
-  max-height: 600px;
-  overflow: hidden;
-  position: relative; 
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    position: relative; /* Required for absolute positioning */
 }
 
 .banner-video {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-  
-  
-  /* Adjustments for small screens */
-  @media (max-width: 768px) {
-    .filters {
-        padding: 15px;
-    }
-  
-    .filters form {
-        flex-direction: column;
-        gap: 10px;
-    }
-  
-    .filters .filter-item {
-        min-width: 100%; 
-    }
-  }
-  
+
   /* sale banner css */
 .banner-container {
   width: 100%;
@@ -391,6 +375,7 @@
   }
 }
   
+  
   /* Products */
   .products-container {
     padding: 0 10px;
@@ -400,7 +385,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -20px; 
+    margin: 0 -20px; /* Reduced margin for better alignment */
   }
   
   .col-md-3,
@@ -450,17 +435,20 @@
   .product-info {
     padding: 15px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
   }
   
   .product-info h5 {
-    font-size: 18px; 
+    font-size: 18px; /* Larger font size for product names */
     margin-bottom: 5px;
-    color: #112D4E; 
+    color: var(--primary-color); /* Black text for product names */
+    color: #112D4E;
   }
   
   .product-info p {
     font-size: px;
-    color: #112D4E; 
+    color: #666; /* Slightly lighter color for product descriptions */
+    color: #112D4E;
   }
   
   .add-to-cart {
@@ -493,7 +481,6 @@
   .product-item:hover .add-to-cart {
     display: block;
   }
-
   .popup-notification {
     position: fixed;
     top: 50%;
@@ -557,17 +544,17 @@
     }
   
     .product-item {
-        flex: 0 0 45%; 
+        flex: 0 0 45%; /* Two cards per row on medium screens */
         max-width: 45%;
-        margin: 5px;
+        margin: 5px; /* Reduced margin for better alignment */
     }
   }
   
   @media (max-width: 576px) {
     .product-item {
-        flex: 0 0 100%; 
+        flex: 0 0 100%; /* One card per row on small screens */
         max-width: 100%;
-        margin: 5px; 
+        margin: 5px; /* Reduced margin for better alignment */
     }
   }
   
