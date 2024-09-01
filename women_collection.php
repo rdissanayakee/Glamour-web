@@ -119,6 +119,12 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
+                        <form action="add_to_cart.php" method="POST">
+                            <input type="hidden" name="product_id" value="1">
+                            <input type="hidden" name="product_name" value="Basic Instinct Midi Dress">
+                            <input type="hidden" name="product_price" value="3850.00">
+                            <button type="submit" class="add-to-cart"><i class="fas fa-shopping-cart">add to cart</i></button>
+                        </form>
                     </div>
             <!-- Product 2 -->
                     <div class="col-md-3 col-sm-6">
@@ -321,5 +327,21 @@
 					<p>&copy; 2024 Online Store. All rights reserved</p>
 				</div>
 			</footer>
+            <script>
+                // JavaScript function to handle the form submission without page reload
+                function addToCart(form) {
+                    var formData = new FormData(form);
+                    fetch('add_to_cart.php', {
+                        method: 'POST',
+                        body: formData
+                    }).then(response => response.text()).then(data => {
+                        // Handle the response from the server
+                        alert('Product added to cart successfully!');
+                    }).catch(error => {
+                        console.error('Error adding product to cart:', error);
+                    });
+                    return false; // Prevent the default form submission
+                }
+            </script>
 		</body>
 </html>
