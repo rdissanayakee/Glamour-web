@@ -2,17 +2,20 @@
 // Check if the form was submitted via POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Retrieve form data safely
-    $username = $_POST['username'] ?? null;
-    $password = $_POST['password'] ?? null;
+    // Retrieve and trim form data
+    $username = trim($_POST['username'] ?? '');
+    $password = trim($_POST['password'] ?? '');
 
     // Check if both username and password are not empty
-    if (empty($username) || empty($password)) {
-        die('Username and password fields cannot be empty.');
+    if (empty($username)) {
+        die('Username field cannot be empty.');
+    }
+    if (empty($password)) {
+        die('Password field cannot be empty.');
     }
 
     // Database connection
-    $conn = new mysqli('localhost', 'root', '', 'login1');
+    $conn = new mysqli('localhost', 'root', '', 'logglamour');
 
     if ($conn->connect_error) {
         die('Connection Failed: ' . $conn->connect_error);
@@ -48,6 +51,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
     }
 } else {
-    die('Invalid request method.');
+    die('Invalid request method. Please submit the form correctly.');
 }
 ?>
