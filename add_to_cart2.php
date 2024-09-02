@@ -4,7 +4,7 @@ $username = "root";
 $password = "";
 $dbname = "addtocart";
 
-$conn = new mysqli($servername, $username, $password, $dbnsame);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 //$user_id = $_SESSION['id'];
 
