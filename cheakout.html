@@ -113,7 +113,7 @@
                         </div>
                         <br>
                         <div class="form-step1-group full-width">
-                            <button type="submit" class="button-step1"><i class="fas fa-truck"></i> Continue to Shipping</button>
+                            <button type="onclick" class="button-step1"><i class="fas fa-truck"></i> Continue to Shipping</button>
                         </div>
                     </form>
                 </div>
@@ -139,104 +139,6 @@
         </div>
     </div>
   
-    <!-- Checkout Step 2 -->
-  
-  
-        <div class="checkout-step2-wrapper">
-        <div class="checkout-step2-container">
-            <div class="checkout-step2-content">
-                <div class="form-step2-container">
-                    <h2><i class="fas fa-shipping-fast"></i> Shipping Method</h2>
-                    <form id="shipping-step2-form">
-                        <div class="shipping-step2-options">
-                            <label for="standard-shipping" class="shipping-step2-label">
-                                <input type="radio" id="standard-shipping" name="shippingMethod" value="Standard Shipping" checked>
-                                Standard Shipping - $5.00
-                            </label>
-                            <label for="express-shipping" class="shipping-step2-label">
-                                <input type="radio" id="express-shipping" name="shippingMethod" value="Express Shipping">
-                                Express Shipping - $15.00
-                            </label>
-                        </div>
-                        <br>
-                        <div class="form-step2-group full-width">
-                            <button type="button" class="button-step2 back-to-info"><i class="fas fa-chevron-left"></i> Back to Information</button>
-                            <button type="submit" class="button-step2"><i class="fas fa-credit-card"></i> Continue to Payment</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="cart-step2">
-                    <h2><i class="fas fa-shopping-cart"></i> Your Cart</h2>
-                    <div class="cart-step2-items"></div>
-                    <div class="cart-step2-summary">
-                        <div class="cart-step2-summary-item">
-                            <span><i class="fas fa-dollar-sign"></i> Subtotal</span>
-                            <span id="subtotal">$200</span>
-                        </div>
-                        <div class="cart-step2-summary-item">
-                            <span><i class="fas fa-shipping-fast"></i> Shipping</span>
-                            <span id="shipping">Calculated at next step</span>
-                        </div>
-                        <div class="cart-step2-summary-item">
-                            <span><i class="fas fa-money-bill-wave"></i> Total</span>
-                            <span id="total">$200</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  
-  
-    <!-- Checkout Step 3 -->
-  
-  
-        <div class="checkout-step3-wrapper">
-        <div class="checkout-step3-container">
-            <div class="checkout-step3-content">
-                <div class="form-step3-container">
-                    <h2><i class="fas fa-credit-card"></i> Payment Information</h2>
-                    <form id="payment-step3-form">
-                        <div class="form-step3-group">
-                            <label for="card-number-step3" class="form-step3-label">Card Number</label>
-                            <input type="text" id="card-number-step3" name="cardNumber" class="form-step3-input" placeholder="1234 5678 9876 5432" required>
-                        </div>
-                        <div class="form-step3-group">
-                            <label for="expiry-date-step3" class="form-step3-label">Expiry Date</label>
-                            <input type="text" id="expiry-date-step3" name="expiryDate" class="form-step3-input" placeholder="MM/YY" required>
-                        </div>
-                        <div class="form-step3-group">
-                            <label for="cvv-step3" class="form-step3-label">CVV</label>
-                            <input type="text" id="cvv-step3" name="cvv" class="form-step3-input" placeholder="123" required>
-                        </div>
-                        <div class="form-step3-group full-width">
-                            <button type="button" class="button-step3 back-to-shipping"><i class="fas fa-chevron-left"></i> Back to Shipping</button>
-                            <button type="submit" class="button-step3">Complete Purchase <i class="fas fa-check"></i></button>
-                        </div>
-                    </form>
-                </div>
-                <div class="cart-step3">
-                    <h2><i class="fas fa-shopping-cart"></i> Your Cart</h2>
-                    <div class="cart-step3-items"></div>
-                    <div class="cart-step3-summary">
-                        <div class="cart-step3-summary-item">
-                            <span><i class="fas fa-dollar-sign"></i> Subtotal</span>
-                            <span id="subtotal">$200</span>
-                        </div>
-                        <div class="cart-step3-summary-item">
-                            <span><i class="fas fa-shipping-fast"></i> Shipping</span>
-                            <span id="shipping">$5.00</span>
-                        </div>
-                        <div class="cart-step3-summary-item">
-                            <span><i class="fas fa-money-bill-wave"></i> Total</span>
-                            <span id="total">$205.00</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  
   <footer class="footer">
 				<div class="footer-container">
 					<div class="footer-section">
@@ -253,7 +155,7 @@
                         <li><a href="contact us.html">Terms of Service</a></li>
 						</ul>
 					</div>
-					<div class="footer-section">
+								<div class="footer-section">
 						<h3>CONTACT US</h3>
 						<p>Order Updates - (077) 053 3426</p>
 						<p>General Email - glamour@gmail.com</p>
