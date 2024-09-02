@@ -303,7 +303,7 @@
                 <div class="footer-section">
                     <h3>COMPANY & OUR POLICIES</h3>
                     <ul>
-                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="contact us.php">Contact Us</a></li>
                         <li><a href="contact us.html">Privacy Policy</a></li>
                         <li><a href="contact us.html">Shipping Policy</a></li>
                         <li><a href="contact us.html">Returns & Exchanges Policy</a></li>

@@ -22,13 +22,13 @@
         <div class="left-section">
             <a href="index.php" class="brand">Glamour</a>
             <ul class="nav-links">
-                <li><a href="men's collection.html">MEN</a></li>
+                <li><a href="men's collection.php">MEN</a></li>
                 <li><a href="women_collection.php">WOMEN</a></li>
                 <li><a href="kids.html">KIDS</a></li>
-                <li><a href="Home&Deco.html">HOME & DECO</a></li>
-                <li><a href="accesories.html">ACCESORIES</a></li>
-                <li><a href="personalcare.main.html">PERSONAL CARE</a></li>
-                <li><a href="Aboutus.html">ABOUT US</a></li>
+                <li><a href="Home&Deco.php">HOME & DECO</a></li>
+                <li><a href="accesories.php">ACCESORIES</a></li>
+                <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
+                <li><a href="Aboutus.php">ABOUT US</a></li>
                 <li>
                   <div class="search__container">
                     <i class="fas fa-search search__icon"></i>
