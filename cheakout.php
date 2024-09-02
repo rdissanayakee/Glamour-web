@@ -20,24 +20,24 @@
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
+     <!-- Navigation Bar -->
+     <nav class="navbar">
         <div class="container">
             <div class="left-section">
                 <a href="index.php" class="brand">Glamour</a>
                 <ul class="nav-links">
-                <li><a href="men's collection.php">MEN</a></li>
+                    <li><a href="men's collection.php">MEN</a></li>
                     <li><a href="women_collection.php">WOMEN</a></li>
-                    <li><a href="kids.phpl">KIDS</a></li>
+                    <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
                     <li><a href="Aboutus.php">ABOUT US</a></li>
                     <li>
-                      <div class="search__container">
-                        <i class="fas fa-search search__icon"></i>
-                        <input class="search__input" type="text" placeholder="Search">
-                    </div>
+                        <div class="search__container">
+                            <i class="fas fa-search search__icon"></i>
+                            <input class="search__input" type="text" placeholder="Search">
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -47,6 +47,7 @@
             </div>
         </div>
     </nav>
+
     <!-- Checkout  -->
 
     <!--    checkout    step 1 -->
@@ -149,10 +150,10 @@
 						<h3>COMPANY & OUR POLICIES</h3>
 						<ul>
                         <li><a href="contact us.php">Contact Us</a></li>
-                        <li><a href="contact us.html">Privacy Policy</a></li>
-                        <li><a href="contact us.html">Shipping Policy</a></li>
-                        <li><a href="contact us.html">Returns & Exchanges Policy</a></li>
-                        <li><a href="contact us.html">Terms of Service</a></li>
+                        <li><a href="contact us.php">Privacy Policy</a></li>
+                        <li><a href="contact us.php">Shipping Policy</a></li>
+                        <li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+                        <li><a href="contact us.php">Terms of Service</a></li>
 						</ul>
 					</div>
 								<div class="footer-section">
