@@ -1,204 +1,243 @@
+// Search Bar Animation
 document.addEventListener("DOMContentLoaded", function() {
-    // Search Bar Animation
     const searchIcon = document.querySelector('.search__icon');
     const searchInput = document.querySelector('.search__input');
 
-    if (searchIcon && searchInput) {
-        searchIcon.addEventListener('click', function() {
-            searchInput.focus();
-        });
+    searchIcon.addEventListener('click', function() {
+        searchInput.focus();
+    });
 
-        searchInput.addEventListener('focus', function() {
-            searchIcon.style.transform = 'rotate(90deg)';
-            searchIcon.style.color = '#007bff';
-        });
+    searchInput.addEventListener('focus', function() {
+        searchIcon.style.transform = 'rotate(90deg)';
+        searchIcon.style.color = '#007bff';
+    });
 
-        searchInput.addEventListener('blur', function() {
-            if (searchInput.value === '') {
-                searchIcon.style.transform = 'rotate(0deg)';
-                searchIcon.style.color = '#999';
-            }
-        });
-    }
-
-    // Scroll to top button
-    const scrollToTopButton = document.getElementById('scrollToTopButton');
-
-    if (scrollToTopButton) {
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                scrollToTopButton.classList.add('visible');
-            } else {
-                scrollToTopButton.classList.remove('visible');
-            }
-        });
-
-        scrollToTopButton.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    }
-
-    // Checkout Process
-    const step1Form = document.getElementById('checkout-step1-form');
-    const step2Form = document.getElementById('shipping-step2-form');
-    const step3Form = document.getElementById('payment-step3-form');
-
-    if (step1Form && step2Form && step3Form) {
-        const step2Wrapper = document.querySelector('.checkout-step2-wrapper');
-        const step3Wrapper = document.querySelector('.checkout-step3-wrapper');
-
-        if (step2Wrapper && step3Wrapper) {
-            // Hide Step 2 and Step 3 initially
-            step2Wrapper.style.display = 'none';
-            step3Wrapper.style.display = 'none';
+    searchInput.addEventListener('blur', function() {
+        if (searchInput.value === '') {
+            searchIcon.style.transform = 'rotate(0deg)';
+            searchIcon.style.color = '#999';
         }
+    });
+  });
 
-        step1Form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            if (validateStep1()) {
-                document.querySelector('.checkout-step1-wrapper').style.display = 'none';
-                step2Wrapper.style.display = 'flex';
-            }
-        });
+  // Scroll to top button
+  document.addEventListener('DOMContentLoaded', () => {
+      const scrollToTopButton = document.getElementById('scrollToTopButton');
 
-        step2Form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            if (validateStep2()) {
-                step2Wrapper.style.display = 'none';
-                step3Wrapper.style.display = 'flex';
-                updateShippingSummary();
-            }
-        });
+      window.addEventListener('scroll', () => {
+          if (window.scrollY > 300) {
+              scrollToTopButton.classList.add('visible');
+          } else {
+              scrollToTopButton.classList.remove('visible');
+          }
+      });
 
-        step3Form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            if (validateStep3()) {
-                alert('Payment processed successfully!');
-            }
-        });
+      scrollToTopButton.addEventListener('click', () => {
+          window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+          });
+      });
+  });
 
-        // Back Buttons
-        const backToInfoBtn = document.querySelector('.button-step2.back-to-info');
-        const backToShippingBtn = document.querySelector('.button-step3.back-to-shipping');
 
-        if (backToInfoBtn) {
-            backToInfoBtn.addEventListener('click', function() {
-                step2Wrapper.style.display = 'none';
-                document.querySelector('.checkout-step1-wrapper').style.display = 'flex';
-            });
-        }
+  //checkout
 
-        if (backToShippingBtn) {
-            backToShippingBtn.addEventListener('click', function() {
-                step3Wrapper.style.display = 'none';
-                step2Wrapper.style.display = 'flex';
-            });
-        }
+  document.addEventListener("DOMContentLoaded", function() {
+      const step1Form = document.getElementById('checkout-step1-form');
+      const step2Form = document.getElementById('shipping-step2-form');
+      const step3Form = document.getElementById('payment-step3-form');
 
-        function validateStep1() {
-            const firstName = document.getElementById('first-name').value.trim();
-            const lastName = document.getElementById('last-name').value.trim();
-            const address = document.getElementById('address').value.trim();
-            const city = document.getElementById('city').value.trim();
-            const state = document.getElementById('state').value.trim();
-            const zipcode = document.getElementById('zipcode').value.trim();
-            const email = document.getElementById('email').value.trim();
+      // Hide Step 2 and Step 3 initially
+      document.querySelector('.checkout-step2-wrapper').style.display = 'none';
+      document.querySelector('.checkout-step3-wrapper').style.display = 'none';
 
-            if (firstName === '' || lastName === '' || address === '' || city === '' || state === '' || zipcode === '' || email === '') {
-                alert('Please fill in all required fields.');
-                return false;
-            }
+      // Step 1 Form Submission
+      step1Form.addEventListener('submit', function(event) {
+          event.preventDefault();
 
-            if (!validateEmail(email)) {
-                alert('Please enter a valid email address.');
-                return false;
-            }
+          // Perform validation
+          if (validateStep1()) {
+              // Hide Step 1, Show Step 2
+              document.querySelector('.checkout-step1-wrapper').style.display = 'none';
+              document.querySelector('.checkout-step2-wrapper').style.display = 'flex';
+          }
+      });
 
-            return true;
-        }
+      function validateStep1() {
+          // Basic validation example
+          const firstName = document.getElementById('first-name').value.trim();
+          const lastName = document.getElementById('last-name').value.trim();
+          const address = document.getElementById('address').value.trim();
+          const city = document.getElementById('city').value.trim();
+          const state = document.getElementById('state').value.trim();
+          const zipcode = document.getElementById('zipcode').value.trim();
+          const email = document.getElementById('email').value.trim();
 
-        function validateEmail(email) {
-            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return regex.test(email);
-        }
+          if (firstName === '' || lastName === '' || address === '' || city === '' || state === '' || zipcode === '' || email === '') {
+              alert('Please fill in all required fields.');
+              return false;
+          }
 
-        function validateStep2() {
-            const shippingMethod = document.querySelector('input[name="shippingMethod"]:checked');
+          if (!validateEmail(email)) {
+              alert('Please enter a valid email address.');
+              return false;
+          }
 
-            if (!shippingMethod) {
-                alert('Please select a shipping method.');
-                return false;
-            }
+          // Additional validation logic can be added here
 
-            return true;
-        }
+          return true;
+      }
 
-        function updateShippingSummary() {
-            const shippingMethod = document.querySelector('input[name="shippingMethod"]:checked').value;
-            let shippingCost = 0;
+      function validateEmail(email) {
+          // Basic email validation using regex
+          const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return regex.test(email);
+      }
 
-            if (shippingMethod === 'Standard Shipping') {
-                shippingCost = 5.00;
-            } else if (shippingMethod === 'Express Shipping') {
-                shippingCost = 15.00;
-            }
+      // Step 2 Form Submission
+      step2Form.addEventListener('submit', function(event) {
+          event.preventDefault();
 
-            document.getElementById('shipping').textContent = '$' + shippingCost.toFixed(2);
-            updateTotal();
-        }
+          // Perform validation
+          if (validateStep2()) {
+              // Hide Step 2, Show Step 3
+              document.querySelector('.checkout-step2-wrapper').style.display = 'none';
+              document.querySelector('.checkout-step3-wrapper').style.display = 'flex';
 
-        function validateStep3() {
-            const cardNumber = document.getElementById('card-number-step3').value.trim();
-            const expiryDate = document.getElementById('expiry-date-step3').value.trim();
-            const cvv = document.getElementById('cvv-step3').value.trim();
+              // Update Shipping Summary (optional)
+              updateShippingSummary();
+          }
+      });
 
-            if (cardNumber === '' || expiryDate === '' || cvv === '') {
-                alert('Please fill in all required fields.');
-                return false;
-            }
+      function validateStep2() {
+          // Basic validation example (shipping method)
+          const shippingMethod = document.querySelector('input[name="shippingMethod"]:checked');
 
-            if (!validateCardNumber(cardNumber)) {
-                alert('Please enter a valid card number.');
-                return false;
-            }
+          if (!shippingMethod) {
+              alert('Please select a shipping method.');
+              return false;
+          }
 
-            if (!validateExpiryDate(expiryDate)) {
-                alert('Please enter a valid expiry date in MM/YY format.');
-                return false;
-            }
+          return true;
+      }
 
-            if (!validateCVV(cvv)) {
-                alert('Please enter a valid CVV.');
-                return false;
-            }
+      function updateShippingSummary() {
+          // Example function to update shipping summary based on selected shipping method
+          const shippingMethod = document.querySelector('input[name="shippingMethod"]:checked').value;
+          let shippingCost = 0;
 
-            return true;
-        }
+          if (shippingMethod === 'Standard Shipping') {
+              shippingCost = 5.00;
+          } else if (shippingMethod === 'Express Shipping') {
+              shippingCost = 15.00;
+          }
 
-        function validateCardNumber(cardNumber) {
-            const regex = /^[0-9]{16}$/;
-            return regex.test(cardNumber);
-        }
+          document.getElementById('shipping').textContent = '$' + shippingCost.toFixed(2);
 
-        function validateExpiryDate(expiryDate) {
-            const regex = /^(0[1-9]|1[0-2])\/?([0-9]{2})$/;
-            return regex.test(expiryDate);
-        }
+          // Update Total (if applicable)
+          updateTotal();
+      }
 
-        function validateCVV(cvv) {
-            const regex = /^[0-9]{3,4}$/;
-            return regex.test(cvv);
-        }
+      // Step 3 Form Submission
+      step3Form.addEventListener('submit', function(event) {
+          event.preventDefault();
 
-        function updateTotal() {
-            const subtotal = parseFloat(document.getElementById('subtotal').textContent.replace('$', ''));
-            const shippingCost = parseFloat(document.getElementById('shipping').textContent.replace('$', ''));
-            const total = subtotal + shippingCost;
+          // Perform validation
+          if (validateStep3()) {
+              // Example: Process Payment (not implemented in this example)
+              alert('Payment processed successfully!'); // Replace with actual payment processing logic
 
-            document.getElementById('total').textContent = '$' + total.toFixed(2);
-        }
-    }
-});
+              // Optionally redirect to a thank you page or clear form
+          }
+      });
+
+      function validateStep3() {
+          // Basic validation example (payment information)
+          const cardNumber = document.getElementById('card-number-step3').value.trim();
+          const expiryDate = document.getElementById('expiry-date-step3').value.trim();
+          const cvv = document.getElementById('cvv-step3').value.trim();
+
+          if (cardNumber === '') {
+              alert('Please enter your card number.');
+              return false;
+          }
+
+          // Card number validation (simple example)
+          if (!validateCardNumber(cardNumber)) {
+              alert('Please enter a valid card number.');
+              return false;
+          }
+
+          if (expiryDate === '') {
+              alert('Please enter the expiry date.');
+              return false;
+          }
+
+          // Expiry date validation (simple example)
+          if (!validateExpiryDate(expiryDate)) {
+              alert('Please enter a valid expiry date in MM/YY format.');
+              return false;
+          }
+
+          if (cvv === '') {
+              alert('Please enter your CVV.');
+              return false;
+          }
+
+          // CVV validation (simple example)
+          if (!validateCVV(cvv)) {
+              alert('Please enter a valid CVV.');
+              return false;
+          }
+
+          return true;
+      }
+
+      function validateCardNumber(cardNumber) {
+          // Simple card number validation (you might want to use a library for more thorough validation)
+          const regex = /^[0-9]{16}$/; // 16 digits
+          return regex.test(cardNumber);
+      }
+
+      function validateExpiryDate(expiryDate) {
+          // Simple expiry date validation (MM/YY format)
+          const regex = /^(0[1-9]|1[0-2])\/?([0-9]{2})$/; // MM/YY
+          return regex.test(expiryDate);
+      }
+
+      function validateCVV(cvv) {
+          // Simple CVV validation (3 or 4 digits)
+          const regex = /^[0-9]{3,4}$/;
+          return regex.test(cvv);
+      }
+
+      // Back Buttons (Step 2 to Step 1, Step 3 to Step 2)
+      const backToInfoBtn = document.querySelector('.button-step2.back-to-info');
+      const backToShippingBtn = document.querySelector('.button-step3.back-to-shipping');
+
+      if (backToInfoBtn) {
+          backToInfoBtn.addEventListener('click', function() {
+              // Show Step 1, Hide Step 2
+              document.querySelector('.checkout-step2-wrapper').style.display = 'none';
+              document.querySelector('.checkout-step1-wrapper').style.display = 'flex';
+          });
+      }
+
+      if (backToShippingBtn) {
+          backToShippingBtn.addEventListener('click', function() {
+              // Show Step 2, Hide Step 3
+              document.querySelector('.checkout-step3-wrapper').style.display = 'none';
+              document.querySelector('.checkout-step2-wrapper').style.display = 'flex';
+          });
+      }
+
+      // Example function to update Total in Summary
+      function updateTotal() {
+          const subtotal = parseFloat(document.getElementById('subtotal').textContent.replace('$', ''));
+          const shippingCost = parseFloat(document.getElementById('shipping').textContent.replace('$', ''));
+          const total = subtotal + shippingCost;
+
+          document.getElementById('total').textContent = '$' + total.toFixed(2);
+      }
+  });
