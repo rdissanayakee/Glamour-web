@@ -114,7 +114,7 @@
                         </div>
                         <br>
                         <div class="form-step1-group full-width">
-                            <button type="onclick" class="button-step1"><i class="fas fa-truck"></i> Continue to Shipping</button>
+                            <button type="onclick" class="button-step1"><i class="fas fa-truck"></i>Order Placed</button>
                         </div>
                     </form>
                 </div>
