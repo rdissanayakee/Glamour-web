@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="Bathwear.js">
     <script src="Bathwear.js"></script>
     <script src="Bathwear.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
