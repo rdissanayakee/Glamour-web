@@ -20,7 +20,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="left-section">
-                <a href="index.html" class="brand">Glamour</a>
+                <a href="index.php" class="brand">Glamour</a>
                 <ul class="nav-links">
                     <li><a href="men's collection.php">MEN</a></li>
                     <li><a href="women's collection.php">WOMEN</a></li>
@@ -34,7 +34,7 @@
             </div>
             <div class="right-section">
                 <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
-                <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+                <a href="login.php" class="nav-icon"><i class="fas fa-user"></i> Login</a>
             </div>
         </div>
     </nav>
@@ -67,10 +67,10 @@
 	<!-- Secondary Navigation Bar -->
     <nav class="secondary-navbar">
         <ul class="nav-links1">
-            <li><a href="Skincare.html">SKINCARE</a></li>
-            <li><a href="haircare.html">HAIRCARE</a></li>
-            <li><a href="perfumes.html">PERFUMES</a></li>
-            <li><a href="cosmetics.html">COSMETICS</a></li>
+            <li><a href="Skincare.php">SKINCARE</a></li>
+            <li><a href="haircare.php">HAIRCARE</a></li>
+            <li><a href="perfumes.php">PERFUMES</a></li>
+            <li><a href="cosmetics.php">COSMETICS</a></li>
         </ul>
     </nav>
 
@@ -303,11 +303,11 @@
 					<div class="footer-section">
 						<h3>COMPANY & OUR POLICIES</h3>
 						<ul>
-							<li><a href="Aboutus.html">Contact Us</a></li>
-							<li><a href="contact us.html">Privacy Policy</a></li>
-							<li><a href="contact us.html">Shipping Policy</a></li>
-							<li><a href="contact us.html">Returns & Exchanges Policy</a></li>
-							<li><a href="contact us.html">Terms of Service</a></li>
+                            <li><a href="contact us.php">Contact Us</a></li>
+							<li><a href="contact us.php">Privacy Policy</a></li>
+							<li><a href="contact us.php">Shipping Policy</a></li>
+							<li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+							<li><a href="contact us.php">Terms of Service</a></li>
 						</ul>
 					</div>
 					<div class="footer-section">
