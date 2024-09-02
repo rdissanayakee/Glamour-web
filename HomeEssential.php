@@ -91,7 +91,7 @@
                                 <p>3,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Ribbed Pillar Candle Setn=1&price=3,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Ribbed Pillar Candle Setn=1&price=3,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                                 <p>2,200 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=White Vase & Oval Plate Setn=1&price=2,200 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=White Vase & Oval Plate Setn=1&price=2,200 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                                 <p>2,700 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=White Vase,Plate & Candle Set=1&price=2,700 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=White Vase,Plate & Candle Set=1&price=2,700 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                 <p>3,300 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=White Ceramic Donut Vase=1&price=3,300 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=White Ceramic Donut Vase=1&price=3,300 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                                 <p>1,900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=White Ceramic Couple Statue=1&price=1,900 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=White Ceramic Couple Statue=1&price=1,900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                                 <p>1,100 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Ceramic Hand Painted Mini Vases=1&price=1,100 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Ceramic Hand Painted Mini Vases=1&price=1,100 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                                 <p>2,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Tall Faux Pampas Grass=1&price=2,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Tall Faux Pampas Grass=1&price=2,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                                 <p>4,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Wall Baskets Art Set=1&price=4,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Wall Baskets Art Set=1&price=4,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                                 <p>5,100 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Black 3D Texture Wall Art=1&price=5,100 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Black 3D Texture Wall Art=1&price=5,100 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                                 <p>3,100 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Rainbows & Arch Artprint Wall Art=1&price=3,100 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Rainbows & Arch Artprint Wall Art=1&price=3,100 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                 <p>5,600 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Creen & white 3D Texture Wall Art=1&price=5,600 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Creen & white 3D Texture Wall Art=1&price=5,600 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                 <p>4,100 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Karisson Maxiemus Wall Clock=1&price=4,100 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Karisson Maxiemus Wall Clock=1&price=4,100 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -271,7 +271,7 @@
                                 <p>9,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Cabai Floor Lamp=1&price=9,500 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Cabai Floor Lamp=1&price=9,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -286,7 +286,7 @@
                                 <p>10,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Black Nesting Coffee Table=1&price=10,500 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Black Nesting Coffee Table=1&price=10,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -301,7 +301,7 @@
                                 <p>11,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=White Large Size Vase=1&price=11,500 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=White Large Size Vase=1&price=11,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -316,7 +316,7 @@
                                 <p>7,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Hanging Planting Vas Set=1&price=7,500 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Hanging Planting Vas Set=1&price=7,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
