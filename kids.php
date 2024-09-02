@@ -177,7 +177,8 @@
                                 <p>2,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=11&item_name=Graffiti Print Jeans&quantity=1&price=2,999 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Graffiti Print Jeans&quantity=1&price=2,999 LKR">
+                                <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -197,7 +198,8 @@
                                 <p>3,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=11&item_name=Black Long Slvees&quantity=1&price=3,499 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Black Long Slvees&quantity=1&price=3,499 LKR">
+                                <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -217,7 +219,8 @@
                                 <p>7,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=11&item_name=Trendy Low Top Running Shoes&quantity=1&price=7,999 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Trendy Low Top Running Shoes&quantity=1&price=7,999 LKR">
+                                <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -237,7 +240,8 @@
                                 <p>2,599 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=11&item_name=Latest Trend Blue T-Shirt&quantity=1&price=2,599 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Latest Trend Blue T-Shirt&quantity=1&price=2,599 LKR">
+                                <i class="fas fa-shopping-cart"></i></a>
                             </div> 
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -257,7 +261,8 @@
                                 <p>7,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=11&item_name=Latest Trend Pink Shoes&quantity=1&price=7,999 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Latest Trend Pink Shoes&quantity=1&price=7,999 LKR">
+                                <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
