@@ -26,10 +26,10 @@
     <nav class="navbar">
         <div class="container">
             <div class="left-section">
-                <a href="index.html" class="brand">Glamour</a>
+                <a href="index.php" class="brand">Glamour</a>
                 <ul class="nav-links">
                     <li><a href="men's collection.php">MEN</a></li>
-                    <li><a href="women's collection.php">WOMEN</a></li>
+                    <li><a href="women_collection.php">WOMEN</a></li>
                     <li><a href="kids.phpl">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
