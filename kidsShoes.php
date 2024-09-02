@@ -58,10 +58,10 @@
 
   <!-- Secondary Navigation Bar -->
   <nav class="secondary-navbar">
-    <ul class="nav-links1">
-        <li><a href="kidsT&D.html">TOPS & DRESS</a></li>
-        <li><a href="kidsBottom.html">BOTTOMS</a></li>
-        <li><a href="kidsShoes.html">FOOTWEAR</a></li>
+  <ul class="nav-links1">
+        <li><a href="kidsT&D.php">TOPS & DRESS</a></li>
+        <li><a href="kidsBottom.php">BOTTOMS</a></li>
+        <li><a href="kidsShoes.php">FOOTWEAR</a></li>
         
     </ul>
 </nav>
