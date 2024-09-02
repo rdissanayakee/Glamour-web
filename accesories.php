@@ -77,9 +77,9 @@
   <!-- Secondary Navigation Bar -->
   <nav class="secondary-navbar">
     <ul class="nav-links1">
-        <li><a href="juwellaries.html">JUWELLARIES</a></li>
-        <li><a href="watches.html">WATCHES</a></li>
-        <li><a href="others.html">OTHERS</a></li>
+        <li><a href="juwellaries.php">JUWELLARIES</a></li>
+        <li><a href="watches.php">WATCHES</a></li>
+        <li><a href="others.php">OTHERS</a></li>
         
     </ul>
 </nav>

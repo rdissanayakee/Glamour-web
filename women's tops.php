@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoes</title>
+    <title>Tops</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
@@ -12,8 +12,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
-    <link rel="stylesheet" href="women's shoes.css">
-    <script src="women's shoes.js"></script>
+    <link rel="stylesheet" href="women's tops.css">
+    <script src="women's tops.js"></script>
 </head>
 <body>
 <!-- Navigation Bar -->
@@ -23,7 +23,7 @@
             <a href="index.html" class="brand">Glamour</a>
             <ul class="nav-links">
                 <li><a href="men's collection.html">MEN</a></li>
-                <li><a href="women's collection.html">WOMEN</a></li>
+                <li><a href="women's collection.php">WOMEN</a></li>
                 <li><a href="kids.html">KIDS</a></li>
                 <li><a href="Home&Deco.html">HOME & DECO</a></li>
                 <li><a href="accesories.html">ACCESORIES</a></li>
@@ -46,50 +46,37 @@
 
 <!-- Open text -->
     <div class="open-text">
-        <h1>SHOES</h1>
-        <p>For those looking to express 
-            their love for footwear with flair, 
-            there are numerous sassy captions tailored for sneakerheads and stiletto lovers alike. </p>
-    </div>
+        <h1>TOPS</h1>
+        <p>Make every day feel like a 
+            stylish occasion with these women's tops.
+             The playful designs and vibrant colors offer a 
+             refreshing twist on wardrobe basics, giving you an 
+             instant style update without over-the-top embellishments. 
+             Get the look you love!</p>
+      </div>
     	
 <!-- Secondary Navigation Bar -->
 <nav class="secondary-navbar">
-    <ul class="nav-links1">
-        <li><a href="women's dresses.html">DRESSES</a></li>
-        <li><a href="women's tops.html">TOPS</a></li>
-        <li><a href="women's shoes.html">SHOES</a></li>
-        <li><a href="women's bttoms.html">BOTTOMS</a></li>
+<ul class="nav-links1">
+        <li><a href="women's dresses.php">DRESSES</a></li>
+        <li><a href="women's tops.php">TOPS</a></li>
+        <li><a href="women's shoes.php">SHOES</a></li>
+        <li><a href="women's bttoms.php">BOTTOMS</a></li>
     </ul>
 </nav>
 
 <!-- Products -->
-            <div class="products-container">
+         <div class="products-container">
                 <div class="row product-row">
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 1-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 1-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 1-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 1-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
 							<div class="product-info">
-                                <h5>Coral Chic Heels</h5>
-                                <p>7800.00 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    s
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 2-1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 2-2.webp" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Elegant Ivory Sandals</h5>
-                                <p>6750.00 LKR</p>
+                                <h5>Patchwork Wrap Top</h5>
+                                <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -104,12 +91,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 3-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 3-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 2-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 2-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Nude Glam Mules</h5>
-                                <p>5890.00 LKR</p>
+                                <h5>Ribbed Halter Crop</h5>
+                                <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -124,31 +111,11 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 4-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 4-2.webp" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/Women images/top 3-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 3-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Tan Strappy Heels</h5>
-                                <p>6890.00 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 5-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 5-2.webp" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Black Pearl Heels</h5>
+                                <h5>Cutout Seam Detail Top</h5>
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
@@ -164,12 +131,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 6-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 6-2.webp" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/Women images/top 4-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 4-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Ivory Glam Sandals</h5>
-                                <p>3450.00 LKR</p>
+                                <h5>Ruched Tie-Front Blouse</h5>
+                                <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -184,12 +151,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 7-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 7-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 5-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 5-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Black Buckle Flats</h5>
-                                <p>6500.00 LKR</p>
+                                <h5>Floral Puff Sleeve Crop Top</h5>
+                                <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -204,12 +171,52 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 8-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 8-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 6-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 6-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Brown Croc Slides</h5>
-                                <p>5700.00 LKR</p>
+                                <h5>Corset-Style Halter Top</h5>
+                                <p>3500.00 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Women images/top 7-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 7-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Bow-Tie Front Blouse</h5>
+                                <p>4590.00 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Women images/top 8-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 8-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Boho Off-Shoulder Crop Top                                </h5>
+                                <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -227,12 +234,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 9-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 9-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 9-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 9-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
 							<div class="product-info">
-                                <h5>Gold Strappy Heels</h5>
-                                <p>8500.00 LKR</p>
+                                <h5>Swirl Print Mesh Button-Up</h5>
+                                <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -247,12 +254,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 10-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 10-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 10-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 10-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Colorful Lace-Up Heels</h5>
-                                <p>7890.00 LKR</p>
+                                <h5>Checkered Halter Crop Top</h5>
+                                <p>4600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -267,12 +274,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 11-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 11-2.webp" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/Women images/top 11-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 11-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Leopard Print Block Heels</h5>
-                                <p>6750.00 LKR</p>
+                                <h5>Bell Sleeve Tie-Front Blouse</h5>
+                                <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -287,12 +294,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 12-1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 12-2.webp" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/Women images/top 12-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 12-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Black Mary Jane Flats</h5>
-                                <p>4300.00 LKR</p>
+                                <h5>Strappy Back Cami Top</h5>
+                                <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -307,12 +314,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 13-1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 13-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 13-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 13-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Platform Sandals with Cork Heels</h5>
-                                <p>6740.00 LKR</p>
+                                <h5>Cozy Knit Cardigan</h5>
+                                <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -327,12 +334,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 14-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 14-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 14-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 14-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>ortoiseshell Platform Heels</h5>
-                                <p>5460.00 LKR</p>
+                                <h5>Flowing Blush Tank</h5>
+                                <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -347,12 +354,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 15-1.webp" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 15-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 15-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 15-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Multicolored Strappy Platform Heels</h5>
-                                <p>5890.00 LKR</p>
+                                <h5>Wild Zebra Halter</h5>
+                                <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -367,12 +374,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/shoes 16-1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/shoes 16-2.webp" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Women images/top 16-1.avif" alt="Product 1" class="product-img primary">
+                                <img src="website images/Women images/top 16-2.avif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Strappy Kitten Heel Sandals</h5>
-                                <p>6890.00 LKR</p>
+                                <h5>T Casual Striped Tee</h5>
+                                <p>4670.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -391,7 +398,6 @@
 <br>
 <br>
 <br>
-
 <!-- Brand Logos -->
 <div class="brand-logos">
 	<img src="website images/Women images/brand icon 2.jpeg" alt="H&M">
@@ -403,6 +409,7 @@
 <br>
 <br>
 <br>
+
 
 <!-- Footer -->
 			<footer class="footer">

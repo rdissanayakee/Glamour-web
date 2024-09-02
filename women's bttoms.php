@@ -23,7 +23,7 @@
             <a href="index.html" class="brand">Glamour</a>
             <ul class="nav-links">
                 <li><a href="men's collection.html">MEN</a></li>
-                <li><a href="women's collection.html">WOMEN</a></li>
+                <li><a href="women's collection.php">WOMEN</a></li>
                 <li><a href="kids.html">KIDS</a></li>
                 <li><a href="Home&Deco.html">HOME & DECO</a></li>
                 <li><a href="accesories.html">ACCESORIES</a></li>
@@ -55,10 +55,10 @@
 <!-- Secondary Navigation Bar -->
 <nav class="secondary-navbar">
     <ul class="nav-links1">
-        <li><a href="women's dresses.html">DRESSES</a></li>
-        <li><a href="women's tops.html">TOPS</a></li>
-        <li><a href="women's shoes.html">SHOES</a></li>
-        <li><a href="women's bttoms.html">BOTTOMS</a></li>
+        <li><a href="women's dresses.php">DRESSES</a></li>
+        <li><a href="women's tops.php">TOPS</a></li>
+        <li><a href="women's shoes.php">SHOES</a></li>
+        <li><a href="women's bttoms.php">BOTTOMS</a></li>
     </ul>
 </nav>
 

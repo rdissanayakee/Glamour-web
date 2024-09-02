@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dresses</title>
+    <title>Glamour</title>
+    <link rel="stylesheet" href="others.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
@@ -12,16 +13,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
-    <link rel="stylesheet" href="women's dresses.css">
-    <script src="women's dresses.js"></script>
+    <link rel="stylesheet" href="others.css">
+    <script src="others.js"></script>
+    
 </head>
 <body>
-<!-- Navigation Bar -->
+    <button id="scrollToTopButton" class="scroll-to-top">↑</button>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container">
             <div class="left-section">
                 <a href="index.html" class="brand">Glamour</a>
                 <ul class="nav-links">
+
                     <li><a href="men's collection.html">MEN</a></li>
                     <li><a href="women's collection.html">WOMEN</a></li>
                     <li><a href="kids.html">KIDS</a></li>
@@ -33,7 +37,7 @@
                       <div class="search__container">
                         <i class="fas fa-search search__icon"></i>
                         <input class="search__input" type="text" placeholder="Search">
-                      </div>
+                    </div>
                     </li>
                 </ul>
             </div>
@@ -42,37 +46,36 @@
                 <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
             </div>
         </div>
-</nav>
-
-<!-- Open text -->
+    </nav>
     <div class="open-text">
-        <h1>DRESSES</h1>
-        <p>Transform your look and make a statement with our 
-            women's dresses that fit your unique personality and style. Elevate your 
-            wardrobe with our versatile range of formal and casual attire, suitable for any season. Find your new favorite dress today!</p>
-    </div>
+        <h1>OTHERS</h1>
+        <p>Best accessorieA for you ! <br>
+
+        Check the Juwellaries collection in our store. Shop with us for a premium clothing,accessories and fashion experience. </p>
+    </div
     	
-<!-- Secondary Navigation Bar -->
+  <!-- Secondary Navigation Bar -->
 <nav class="secondary-navbar">
     <ul class="nav-links1">
-        <li><a href="women's dresses.html">DRESSES</a></li>
-        <li><a href="women's tops.html">TOPS</a></li>
-        <li><a href="women's shoes.html">SHOES</a></li>
-        <li><a href="women's bttoms.html">BOTTOMS</a></li>
+        <li><a href="juwellaries.php">JUWELLARIES</a></li>
+        <li><a href="watches.php">WATCHES</a></li>
+        <li><a href="others.php">OTHERS</a></li>
     </ul>
 </nav>
+
 <!-- Products -->
-          <div class="products-container">
+
+            <div class="products-container">
                 <div class="row product-row">
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 1-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 1-2" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/sunglass2.webp" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/s8.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
 							<div class="product-info">
-                                <h5>Floral Sundress</h5>
-                                <p>4290.00 LKR</p>
+                                <h5>Women Square Sunglass</h5>
+                                <p>2,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -87,12 +90,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 2-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 2-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/s45.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/s7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Satin Slip Dress</h5>
-                                <p>3260.00 LKR</p>
+                                <h5>Women Circular-shape Sunglass</h5>
+                                <p>1200 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -107,12 +110,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-								<img src="website images/Women images/dresses 3-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 3-2.avif" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/accesories images/s46.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/s6.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Black Lace Corset Dress</h5>
-                                <p>4100.00 LKR</p>
+                                <h5>Mens Cat Eye Sunglass</h5>
+                                <p>10,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -127,12 +130,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-								<img src="website images/Women images/dresses 4-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 4-2.avif" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/accesories images/s47.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/s48.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Puff Sleeve Dress</h5>
-                                <p>4300.00 LKR</p>
+                                <h5>Men Round Sunglass</h5>
+                                <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -147,12 +150,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 5-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 5-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/bag5.webp" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/bag6.webp" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Crimson Dream A-line Dress</h5>
-                                <p>2890.00 LKR</p>
+                                <h5>Black Crossbody Bag</h5>
+                                <p>2,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -167,12 +170,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 6-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 6-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/b1.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/b7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Ivory Embrace bodycon Dress</h5>
-                                <p>4670.00 LKR</p>
+                                <h5>Outlead Bag</h5>
+                                <p>6700 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -187,12 +190,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 7-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 7-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/bg1.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/bg3.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Azure Mist hooded Dress</h5>
-                                <p>4320.00 LKR</p>
+                                <h5>Messeger Bag</h5>
+                                <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -207,13 +210,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 8-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 8-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/bg2.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/bg4.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Seafoam Waves cut-out Mini Dress
-                                </h5>
-                                <p>6540.00 LKR</p>
+                                <h5>Envelope Clutch Bag</h5>
+                                <p>5,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -231,12 +233,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 9-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 9-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/a1.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/a2.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
 							<div class="product-info">
-                                <h5>Scarlet Elegance maxi Dress</h5>
-                                <p>3450.00 LKR</p>
+                                <h5>Darkbrown Bucket Belt</h5>
+                                <p>2400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -251,12 +253,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 10-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 10-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/a6.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/a7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Blush Whisper ruched Bodycon Dress</h5>
-                                <p>2890.00 LKR</p>
+                                <h5>Lightbrown Bucket Belt</h5>
+                                <p>4200 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -271,12 +273,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-								<img src="website images/Women images/dresses 11-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 11-2.avif" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/accesories images/belt7.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/belt8.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Snowy Grace strapless Mini Dress</h5>
-                                <p>3670.00 LKR</p>
+                                <h5>Skinny Belt</h5>
+                                <p>2,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -291,12 +293,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-								<img src="website images/Women images/dresses 12-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 12-2.avif" alt="Product 1 Hover" class="product-img secondary">
+								<img src="website images/accesories images/a3.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/a7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Desert Rose sheer Ruched Dress</h5>
-                                <p>5430.00 LKR</p>
+                                <h5>Fabric Belt</h5>
+                                <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -311,12 +313,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 13-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 13-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/de.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/c7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Red bodycon dress</h5>
-                                <p>4560.00 LKR</p>
+                                <h5>Trcuker Cap</h5>
+                                <p>1,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -331,12 +333,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 14-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 14-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/dt.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/ca39.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Pleated floral dress</h5>
-                                <p>3250.00 LKR</p>
+                                <h5>White Sport Cap</h5>
+                                <p>2,990 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -351,12 +353,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 15-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 15-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/ca36.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/cap1.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Ruffle shift dress</h5>
-                                <p>3670.00 LKR</p>
+                                <h5>Baseball Cap</h5>
+                                <p>999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -371,12 +373,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Women images/dresses 16-1.avif" alt="Product 1" class="product-img primary">
-                                <img src="website images/Women images/dresses 16-2.avif" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/accesories images/cs1.jfif" alt="Product 1" class="product-img primary">
+                                <img src="website images/accesories images/c7.jfif" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Mustard skater dress</h5>
-                                <p>4570.00 LKR</p>
+                                <h5>Apple Cap</h5>
+                                <p>1,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -391,24 +393,23 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 <br>
 <br>
 <br>
-    
-<!-- Brand Logos -->
 <div class="brand-logos">
-	<img src="website images/Women images/brand icon 2.jpeg" alt="H&M">
+	<img src="website images/Women images/brand icon 2.jpeg" alt="The New York Times">
 	<img src="website images/Women images/brand icon  1.jpeg" alt="Vogue">
-	<img src="website images/Women images/brand icon 4.jpeg" alt="Under Armer">
-	<img src="website images/Women images/brand icon 5.jpeg" alt="Zara">
-	<img src="website images/Women images/brand icon 3.jpeg" alt="Puma">
+	<img src="website images/Women images/brand icon 4.jpeg" alt="Vanity Fair">
+	<img src="website images/Women images/brand icon 5.jpeg" alt="CNBC">
+	<img src="website images/Women images/brand icon 3.jpeg" alt="CNBC">
 </div>
-<br>
-<br>
-<br>
+	<br>
+    <br>
+    <br>
 
-<!-- Footer -->
+
+    <!-- Footer -->
 			<footer class="footer">
 				<div class="footer-container">
 					<div class="footer-section">
