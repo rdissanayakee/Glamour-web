@@ -14,6 +14,13 @@
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
     <link rel="stylesheet" href="women's bttoms.css">
     <script src="women's bttoms.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <!-- Navigation Bar -->
