@@ -120,7 +120,7 @@
                             </div>
                          
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Light Beidge Long Slevee T-Shirt&quantity=1&price=5990.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
