@@ -32,7 +32,7 @@
                 <a href="index.php" class="brand">Glamour</a>
                 <ul class="nav-links">
                     <li><a href="men's collection.php">MEN</a></li>
-                    <li><a href="women's collection.php">WOMEN</a></li>
+                    <li><a href="women_collection.php">WOMEN</a></li>
                     <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
@@ -78,10 +78,10 @@
 	<!-- Secondary Navigation Bar -->
     <nav class="secondary-navbar">
         <ul class="nav-links1">
-            <li><a href="men's t-shirt.html">T-SHIRTS</a></li>
-            <li><a href="men's bottom.html">BOTTOMS</a></li>
-            <li><a href="men's loungewear.html">LOUNGEWEAR</a></li>
-            <li><a href="men's shoes.html">FOOTWEAR</a></li>
+            <li><a href="men's t-shirt.php">T-SHIRTS</a></li>
+            <li><a href="men's bottom.php">BOTTOMS</a></li>
+            <li><a href="men's loungewear.php">LOUNGEWEAR</a></li>
+            <li><a href="men's shoes.php">FOOTWEAR</a></li>
         </ul>
     </nav>
 

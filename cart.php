@@ -24,15 +24,15 @@
  <nav class="navbar">
     <div class="container">
         <div class="left-section">
-            <a href="index.html" class="brand">Glamour</a>
+            <a href="index.php" class="brand">Glamour</a>
             <ul class="nav-links">
-                <li><a href="men's collection.html">MEN</a></li>
-                <li><a href="women's collection.html">WOMEN</a></li>
-                <li><a href="kids.html">KIDS</a></li>
-                <li><a href="Home&Deco.html">HOME & DECO</a></li>
-                <li><a href="accesories.html">ACCESSORIES</a></li>
-                <li><a href="personalcare.main.html">PERSONAL CARE</a></li>
-                <li><a href="Aboutus.html">ABOUT US</a></li>
+                <li><a href="men's collection.php">MEN</a></li>
+                <li><a href="women's collection.php">WOMEN</a></li>
+                <li><a href="kids.php">KIDS</a></li>
+                <li><a href="Home&Deco.php">HOME & DECO</a></li>
+                <li><a href="accesories.php">ACCESSORIES</a></li>
+                <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
+                <li><a href="Aboutus.php">ABOUT US</a></li>
                 <li>
                   <div class="search__container">
                     <i class="fas fa-search search__icon"></i>
@@ -43,7 +43,7 @@
         </div>
         <div class="right-section">
             <a href="cart.php" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
-            <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+            <a href="login1.php" class="nav-icon"><i class="fas fa-user"></i> Login</a>
         </div>
     </div>
 </nav>
@@ -225,11 +225,11 @@
         <div class="footer-section">
             <h3>COMPANY & OUR POLICIES</h3>
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Shipping Policy</a></li>
-                <li><a href="#">Returns & Exchanges Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
+                <li><a href="contact us.php">About Us</a></li>
+                <li><a href="contact us.php">Privacy Policy</a></li>
+                <li><a href="contact us.php">Shipping Policy</a></li>
+                <li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+                <li><a href="contact us.php">Terms of Service</a></li>
             </ul>
         </div>
         <div class="footer-section">
