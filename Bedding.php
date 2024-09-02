@@ -83,7 +83,7 @@
                                 <p>5,800 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Geo-Maze Bedsheet Set=1&price=5,800 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Geo-Maze Bedsheet Set=1&price=5,800 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -103,7 +103,7 @@
                                 <p>5,600 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Floral Garden Bedsheet Set=1&price=5,600 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Floral Garden Bedsheet Set=1&price=5,600 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -123,7 +123,7 @@
                                 <p>6,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Allium Bedsheet Set=1&price=6,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Allium Bedsheet Set=1&price=6,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -143,7 +143,7 @@
                                 <p>5,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Baronia Bedsheet Set=1&price=5,400 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Baronia Bedsheet Set=1&price=5,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -163,7 +163,7 @@
                                 <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Nouvelle Bedsheet Set=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Nouvelle Bedsheet Set=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -183,7 +183,7 @@
                                 <p>5,100 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Trapezoid Bedsheet Set=1&price=5,100 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Trapezoid Bedsheet Set=1&price=5,100 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -203,7 +203,7 @@
                                 <p>5,200 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Enchanteur Bedsheet Set=1&price=5,200 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Enchanteur Bedsheet Set=1&price=5,200 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -223,7 +223,7 @@
                                 <p>5,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Artistic Patch Bedsheet Set=1&price=5,999 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Artistic Patch Bedsheet Set=1&price=5,999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -243,7 +243,7 @@
                                 <p>4,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa White Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa White Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -263,7 +263,7 @@
                                 <p>4,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa Blue Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa Blue Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -283,7 +283,7 @@
                                 <p>4,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa White&Blue Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa White&Blue Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -303,7 +303,7 @@
                                 <p>4,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa Orange Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Alyssa Orange Bedsheet Set=1&price=4,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -323,7 +323,7 @@
                                 <p>4,900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Little Monster (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Little Monster (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -343,7 +343,7 @@
                                 <p>4,900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Candy Land (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Candy Land (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -363,7 +363,7 @@
                                 <p>4,900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Robots Rule (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Robots Rule (S) Bedsheet Set=1&price=4,900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -383,7 +383,7 @@
                                 <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Royal Bloom (S) Bedsheet Set=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Royal Bloom (S) Bedsheet Set=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
