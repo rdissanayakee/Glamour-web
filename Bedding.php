@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="bedding.js">
     <script src="bedding.js"></script>
     <script src="bedding.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
