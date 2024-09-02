@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
     <link rel="stylesheet" href="kidsShoes.css">
     <script src="kidsShoes.js"></script>
-    
+
     <style>
         a{
             text-decoration: none !important;
@@ -87,7 +87,7 @@
                                 <p>2,899 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=11&item_name=Coverse Baby Sneakers&price=2,899 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -107,7 +107,7 @@
                                 <p>4,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Sports Boys Sneakers&price=4,999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -127,7 +127,7 @@
                                 <p>3,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Richer Style Spring shoes&price=3,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -147,7 +147,7 @@
                                 <p>3,599 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Fashion Sport Shoes&price=3,599 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -167,7 +167,7 @@
                                 <p>5,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Light Pink Leather Shoes&price=5,499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -187,7 +187,7 @@
                                 <p>3,799 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Spring Low Cute Sneakers&price=3,799 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -207,7 +207,7 @@
                                 <p>4,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Girl Athletic Shoes&price=4,499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -227,7 +227,7 @@
                                 <p>3,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Tennis Shoes&price=3,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -247,7 +247,7 @@
                                 <p>3,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Classic Canvas Sneakers&price=3,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -267,7 +267,7 @@
                                 <p>2,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Trendy Comfortable Sandals&price=2,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -287,7 +287,7 @@
                                 <p>2,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Boy Outdoor Fashion Sandals&price=2,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -307,7 +307,7 @@
                                 <p>1,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name= Blue Fashion Sandals&price=1,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -327,7 +327,7 @@
                                 <p>2,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Summer Style Girl Sandals&price=2,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -347,7 +347,7 @@
                                 <p>3,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Gubotare Little Girl Sandals&price=3,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -367,7 +367,7 @@
                                 <p>2,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Floral Knot Decor Flat Sandals&price=2,400 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -387,7 +387,7 @@
                                 <p>1,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Girl Clogs Charms Hollow Gardenprice=1,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
