@@ -48,7 +48,7 @@
     </nav>
 
 	<div class="open-text">
-        <h1>Bottom</h1>
+        <h1>BOTTOM</h1>
         <p>"Step into style with our awesome kids' Bottom collection! From classic jeans to cool jackets,
              our denim is built for all-day fun and endless adventures.
               Tough enough to handle any playtime and comfy enough to wear anywhere, 

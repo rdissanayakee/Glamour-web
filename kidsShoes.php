@@ -48,7 +48,7 @@
     </nav>
 
 	<div class="open-text">
-        <h1>FootWear</h1>
+        <h1>FOOTWEAR</h1>
         <p>"Put your best foot forward with our fantastic collection of kids' footwear!
              From sporty sneakers to stylish sandals and cozy boots,
              we've got the perfect pair for every adventure. Our shoes are made for running, 

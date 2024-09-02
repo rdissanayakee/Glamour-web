@@ -110,7 +110,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Kids/ kidTD5.jpeg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Kids/kidTD5.jpeg" alt="Product 1" class="product-img primary">
                                 <img src="website images/Kids/kidTD6.jpeg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
