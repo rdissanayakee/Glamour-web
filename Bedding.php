@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Essential</title>
-    <link rel="stylesheet" href="HomeEssential.css">
+    <title>Bedding</title>
+    <link rel="stylesheet" href="Bedding.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
@@ -14,9 +14,9 @@
 	
 	
 
-    <link rel="stylesheet" href="HomeEssential.js">
-    <script src="HomeEssential.js"></script>
-    <script src="HomeEssential.js"></script>
+    <link rel="stylesheet" href="bedding.js">
+    <script src="bedding.js"></script>
+    <script src="bedding.js"></script>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
@@ -52,11 +52,8 @@
     <br>
 
 	<div class="open-text">
-        <h1>HOME ESSENTIAL</h1>
-        <p>"Explore our curated selection of home essentials, from stylish décor to functional kitchenware. 
-            Our website offers everything you need to elevate your living space, 
-            featuring high-quality products that blend form and function. 
-            Create a home that reflects your unique style and comfort."
+        <h1>BEDDING</h1>
+        <p>Welcome to Glamour Bedding, your ultimate destination for luxurious and comfortable bedding. Discover a wide selection of premium bed linens, duvets, pillows, and more, designed to provide you with the perfect night's sleep. Our products are crafted from the finest materials to ensure quality and durability, all while adding a touch of elegance to your bedroom.
         </p>
       </div>
 
@@ -67,258 +64,333 @@
   <!-- Secondary Navigation Bar -->
   <nav class="secondary-navbar">
     <ul class="nav-links1">
-        <li><a href="Bedding.html">BEDDING</a></li>
-        <li><a href="Bathwear.html">BATH WEAR</a></li>
-        <li><a href="HomeEssential.html">HOME ESSENTIAL</a></li>
+        <li><a href="Bedding.php">BEDDING</a></li>
+        <li><a href="Bathwear.php">BATH WEAR</a></li>
+        <li><a href="HomeEssential.php">HOME ESSENTIAL</a></li>
         
     </ul>
 </nav>
 
 <div class="products-container">
                 <div class="row product-row">
-                    <div class="popup-notification" id="popupNotification">
-                        <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                        <h3 id="itemName"></h3>
-                        <p>is added to cart!</p>
-                    </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage1.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                        <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage1.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage1.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
 							<div class="product-info">
-                                <h5>Ribbed Pillar Candle Set</h5>
-                                <p>3,000 LKR</p>
+                                <h5>Geo-Maze Bedsheet Set</h5>
+                                <p>5,800 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage2.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage2.1.jpg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>White Vase & Oval Plate Set</h5>
-                                <p>2,200 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage3.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage3.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Home & Deco/Bimage2.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage2.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Vase,Plate & Candle Set</h5>
-                                <p>2,700 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage4.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage4.1.jpg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>White Ceramic Donut Vase</h5>
-                                <p>3,300 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage5.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage5.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>White Ceramic Couple Statue</h5>
-                                <p>1,900 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage6.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage6.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Ceramic Hand Painted Mini Vases</h5>
-                                <p>1,100 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage7.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage7.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Tall Faux Pampas Grass</h5>
-                                <p>2,000 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage8.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage8.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Wall Baskets Art Set </h5>
-                                <p>4,000 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage9.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage9.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Black 3D Texture Wall Art</h5>
-                                <p>5,100 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage10.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage10.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Rainbows & Arch Artprint Wall Art</h5>
-                                <p>3,100 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage11.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage11.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Creen & white 3D Texture Wall Art</h5>
+                                <h5>Floral Garden Bedsheet Set</h5>
                                 <p>5,600 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage12.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage12.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Karisson Maxiemus Wall Clock</h5>
-                                <p>4,100 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage13.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage13.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Home & Deco/Beimage3.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage3.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Cabai Floor Lamp</h5>
-                                <p>9,500 LKR</p>
+                                <h5>Allium Bedsheet Set</h5>
+                                <p>6,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-item">
-                            <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage14.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage14.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
-                            </div>
-                            <div class="product-info">
-                                <h5>Black Nesting Coffee Table</h5>
-                                <p>10,500 LKR</p>
-                            </div>
-                            <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage15.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage15.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Home & Deco/Beimage4.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage4.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>White Large Size Vase</h5>
-                                <p>11,500 LKR</p>
+                                <h5>Baronia Bedsheet Set</h5>
+                                <p>5,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/Home & Deco/Himage16.jpeg" alt="Product 1" class="product-img primary">
-                                <img src="website images/Home & Deco/Himage16.1.jpeg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/Home & Deco/Beimage5.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage5.1.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
-                                <h5>Hanging Planting Vas Set</h5>
-                                <p>7,500 LKR</p>
+                                <h5>Nouvelle Bedsheet Set</h5>
+                                <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage6.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage6.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Trapezoid Bedsheet Set</h5>
+                                <p>5,100 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage7.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage7.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Enchanteur Bedsheet Set</h5>
+                                <p>5,200 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage8.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage8.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Artistic Patch Bedsheet Set</h5>
+                                <p>5,999 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage9.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage9.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Alyssa White Bedsheet Set</h5>
+                                <p>4,400 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage10.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage10.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Alyssa Blue Bedsheet Set</h5>
+                                <p>4,400 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage11.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage11.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Alyssa White&Blue Bedsheet Set</h5>
+                                <p>4,400 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage12.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage12.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Alyssa Orange Bedsheet Set</h5>
+                                <p>4,400 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage13.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage13.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Little Monster (S) Bedsheet Set</h5>
+                                <p>4,900 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage14.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage14.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Candy Land (S) Bedsheet Set</h5>
+                                <p>4,900 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage15.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/BEimage15.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Robots Rule (S) Bedsheet Set</h5>
+                                <p>4,900 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="product-img-wrapper">
+                                <img src="website images/Home & Deco/Beimage16.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/Home & Deco/Beimage16.1.jpg" alt="Product 1 Hover" class="product-img secondary">
+                            </div>
+                            <div class="product-info">
+                                <h5>Royal Bloom (S) Bedsheet Set</h5>
+                                <p>5,000 LKR</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="popup-notification" id="popupNotification">
+                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
+                            <h3 id="itemName"></h3>
+                            <p>is added to cart!</p>
                         </div>
                     </div>
                     
