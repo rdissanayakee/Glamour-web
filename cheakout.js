@@ -262,5 +262,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.getElementById('total').textContent = '$' + total.toFixed(2);
     }
+<<<<<<< Updated upstream
   });
 
+=======
+>>>>>>> Stashed changes
