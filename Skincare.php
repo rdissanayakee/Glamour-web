@@ -63,11 +63,12 @@
 
   <!-- Secondary Navigation Bar -->
   <nav class="secondary-navbar">
-    <ul class="nav-links1">
-        <li><a href="haircare.html">SKINCARE</a></li>
-        <li><a href="perfumes.html">HAIRCARE</a></li>
-        <li><a href="perfumes.html">PERFUMES</a></li>
-        <li><a href="cosmetics.html">COSMETICS</a></li>
+  <ul class="nav-links1">
+        <li><a href="Skincare.php">SKINCARE</a></li>
+        <li><a href="haircare.php">HAIRCARE</a></li>
+        <li><a href="perfumes.php">PERFUMES</a></li>
+        <li><a href="cosmetics.php">COSMETICS</a></li>
+
         
     </ul>
 </nav>

@@ -14,8 +14,8 @@
 	
 	
 
-    <link rel="stylesheet" href="haircare.css">
-    <script src="haircare.js"></script>
+    <link rel="stylesheet" href="perfumes.css">
+    <script src="perfumes.js"></script>
     
 </head>
 <body>
@@ -52,10 +52,10 @@
 	<br>
     <br>
 	<div class="open-text">
-        <h1>HAIRCARE</h1>
-        <p>Best HairCare products for you ! <br>
+        <h1>PERFUMES</h1>
+        <p>Best Perfume brands for you ! <br>
 
-            Check the best haircare products in our store. Shop with us for a premium clothing,accessories and fashion experience. </p>
+            Check the famous perfume brands from our store. Shop with us for a premium clothing,accessories and fashion experience. </p>
     </div>
     </div>
 <br>
@@ -64,14 +64,14 @@
   <!-- Secondary Navigation Bar -->
   <nav class="secondary-navbar">
     <ul class="nav-links1">
-        <li><a href="Skincare.html">SKINCARE</a></li>
-        <li><a href="haircare.html">HAIRCARE</a></li>
-        <li><a href="perfumes.html">PERFUMES</a></li>
-        <li><a href="cosmetics.html">COSMETICS</a></li>
+        <li><a href="Skincare.php">SKINCARE</a></li>
+        <li><a href="haircare.php">HAIRCARE</a></li>
+        <li><a href="perfumes.php">PERFUMES</a></li>
+        <li><a href="cosmetics.php">COSMETICS</a></li>
+
         
     </ul>
 </nav>
-
 <!-- Products -->
 <div class="products-container">
     <div class="row product-row">
@@ -83,13 +83,14 @@
         <div class="col-md-3 col-sm-6">
             <div class="product-item">
                 <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair3.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair3..jpg" alt="Product 1 Hover" class="product-img secondary">
+
+                                <img src="website images/personal care/per16.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per16..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
 							<div class="product-info">
-                                <h5>Briogeo long&thick shampoo</h5>
-                                <p>2,599 LKR</p>
+                                <h5>COCO CHANEL paris perfume</h5>
+                                <p>24,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -99,13 +100,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair2.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair2..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per8.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per8..jpg" alt="Product 1 Hover" class="product-img secondary">
                                
                             </div>
                             <div class="product-info">
-                                <h5>Briogeo clean&clear shampoo</h5>
-                                <p>2,500 LKR</p>
+                                <h5>AERIN Amber musk perfume</h5>
+                                <p>10,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -115,13 +116,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair4.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair4,.jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per6.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per6..jpg" alt="Product 1 Hover" class="product-img secondary">
                                
                             </div>
                             <div class="product-info">
-                                <h5>HAIRbiology lotus bundle</h5>
-                                <p>3,400 LKR</p>
+                                <h5>TOMFORD Peach perfume</h5>
+                                <p>13,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -131,13 +132,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair5.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair5..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per3.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per3..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>HAIRbiology honey bundle</h5>
-                                <p>3,400 LKR</p>
+                                <h5>D'ior SAKURA Perfume</h5>
+                                <p>23,300 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -147,13 +148,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair6.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair6..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per1.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per5..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>HAIRbiology whiterose bundle</h5>
-                                <p>3,400 LKR</p>
+                                <h5>VERSACE men's perfume</h5>
+                                <p>35,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -163,13 +164,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair7.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair7..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per4.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per6..jpg" alt="Product 1 Hover" class="product-img secondary">
                                
                             </div>
                             <div class="product-info"><br>
-                                <h5>DOVE glowing shampoo</h5>
-                                <p>1,000 LKR</p>
+                                <h5>LOLLIA goldenrose perfume</h5>
+                                <p>17,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -179,13 +180,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair8.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair13..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per7.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per7..jpg" alt="Product 1 Hover" class="product-img secondary">
                               
                             </div>
                             <div class="product-info">
-                                <h5> AVEDA leave-on conditinor</h5>
-                                <p>999 LKR</p>
+                                <h5> TOMFORG Cherry perfume</h5>
+                                <p>14,200LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -195,13 +196,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair9.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair9,.jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per2..jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per8..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>AVEDA nutri-plenish pack</h5>
-                                <p>2,700 LKR</p>
+                                <h5>GoodGirl Blush Perfume</h5>
+                                <p>25,700 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -211,13 +212,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair1..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per9.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per9..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>AVEDA hydrating shampoo</h5>
-                                <p>1,400 LKR</p>
+                                <h5>MARC JACOSS Daisy perfume</h5>
+                                <p>19,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -227,13 +228,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair10.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair10..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per10.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per10..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>Ouidad hair cream</h5>
-                                <p>2,400 LKR</p>
+                                <h5>ELIE SAAB Vanilla perfume</h5>
+                                <p>26,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -243,13 +244,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair12.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair12.jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per11.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per11..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>POMELO-CO haircare duo</h5>
-                                <p>3,400 LKR</p>
+                                <h5>Victoria's Secret Bomshell</h5>
+                                <p>36,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -259,13 +260,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair13.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair13,,.jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per12.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per12..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>OLAPLEX haircream</h5>
-                                <p>1,500 LKR</p>
+                                <h5>Victoria's Secret rose perfume</h5>
+                                <p>10,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -275,13 +276,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair14.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair14..jpg" alt=Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per13.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per13..jpg" alt=Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>Happy Nation shampoo</h5>
-                                <p>2,400 LKR</p>
+                                <h5>Victoria's Secret Peony perfume</h5>
+                                <p>10,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -291,13 +292,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair15.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair15..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per14.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per14..jpg" alt="Product 1 Hover" class="product-img secondary">
                                
                             </div>
                             <div class="product-info">
-                                <h5>COCO&EVE hair mask</h5>
-                                <p>1,700 LKR</p>
+                                <h5>Victoria's Secret love perfume</h5>
+                                <p>10,700 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -307,12 +308,12 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair16.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair16..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per15..jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per15'.jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>AVEDA healthyhair shampoo</h5>
+                                <h5>Victoria's Secret bundle pack</h5>
                                 <p>2,200 LKR</p>
                             </div>
                             <div class="add-to-cart">
@@ -323,13 +324,13 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
                             <div class="product-img-wrapper">
-                                <img src="website images/personal care/hair11.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/personal care/hair11..jpg" alt="Product 1 Hover" class="product-img secondary">
+                                <img src="website images/personal care/per5.jpg" alt="Product 1" class="product-img primary">
+                                <img src="website images/personal care/per5..jpg" alt="Product 1 Hover" class="product-img secondary">
                                 
                             </div>
                             <div class="product-info">
-                                <h5>SHOTS hair perfume</h5>
-                                <p>2,450 LKR</p>
+                                <h5>IDYLL Orchid perfume</h5>
+                                <p>26,450 LKR</p>
                             </div>
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
@@ -350,9 +351,9 @@
     </div>
 </div>
 <div class="brand-logos">
-	<img src="website images/personal care/brand1.jpg" alt="The New York Times">
+	<img src="website images/personal care/brand6.jpg" alt="The New York Times">
 	<img src="website images/personal care/brand3.jpg" alt="Vogue">
-	<img src="website images/personal care/brand5.jpg" alt="Vanity Fair">
+	<img src="website images/personal care/brand7.jpg" alt="Vanity Fair">
 	<img src="website images/personal care/brand4.jpg" alt="CNBC">
 	<img src="website images/personal care/brand2.jpg" alt="CNBC">
 </div>
