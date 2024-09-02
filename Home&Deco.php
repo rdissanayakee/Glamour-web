@@ -122,7 +122,7 @@
                                 <p>9,800 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Carrot's Den Vase Collection=1&price=9,800 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Carrot's Den Vase Collection&quantity=1&price=9,800 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -142,7 +142,7 @@
                                 <p>3,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=2&item_name=Scented Candle & Vase Set=1&price=3,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=2&item_name=Scented Candle & Vase Set&quantity=1&price=3,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -162,7 +162,7 @@
                                 <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=3&item_name=Marble Shaped Trinked Tray=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=3&item_name=Marble Shaped Trinked Tray&quantity=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -182,7 +182,7 @@
                                 <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=4&item_name=Black Modern Wall Clock=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=4&item_name=Black Modern Wall Clock&quantity=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -202,7 +202,7 @@
                                 <p>7,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=5&item_name=Cotton Luxury BedSheet Set=1&price=7,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=5&item_name=Cotton Luxury BedSheet Set&quantity=1&price=7,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -222,7 +222,7 @@
                                 <p>4,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=6&item_name=Ameridown Linen Sheet Set=1&price=4,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=6&item_name=Ameridown Linen Sheet Set&quantity=1&price=4,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -242,7 +242,7 @@
                                 <p>2,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=7&item_name=Bamboo Bath Towel=1&price=2,500 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=7&item_name=Bamboo Bath Towel=1&price&quantity=2,500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -262,7 +262,7 @@
                                 <p>5,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=8&item_name=Waffle Weave Towel Set=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=8&item_name=Waffle Weave Towel Set&quantity=1&price=5,000 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
