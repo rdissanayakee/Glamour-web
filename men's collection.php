@@ -146,7 +146,7 @@
                                 <p>4580LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=12&item_name=Brown Polo Coloerd T-shirt&quantity=1&price=4580.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -166,7 +166,7 @@
                                 <p>3999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=13&item_name=White Bottom&quantity=1&price=3999.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -186,7 +186,7 @@
                                 <p>8,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=14&item_name=Bermudy Baggy Shorts&quantity=1&price=8999.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -206,7 +206,7 @@
                                 <p>7499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=15&item_name=Black Loungewear Set&quantity=1&price=7499.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -226,7 +226,7 @@
                                 <p>6890 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=16&item_name=Pique T-Shirt And Short Set&quantity=1&price=6890.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -246,7 +246,7 @@
                                 <p>13,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=17&item_name=Puma Super Team Velvet&quantity=1&price=13999.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -266,7 +266,7 @@
                                 <p>7,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=18&item_name=Puma malachite yellow sizzle&quantity=1&price=7999.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
