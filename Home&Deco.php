@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="H&D.css">
     <script src="H&D.js"></script>
     <script src="H&D.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
