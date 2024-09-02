@@ -201,21 +201,4 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('total').textContent = '$' + total.toFixed(2);
         }
     }
-<<<<<<< Updated upstream
-
-    // Example function to update Total in Summary
-    function updateTotal() {
-        const subtotal = parseFloat(document.getElementById('subtotal').textContent.replace('$', ''));
-        const shippingCost = parseFloat(document.getElementById('shipping').textContent.replace('$', ''));
-        const total = subtotal + shippingCost;
-
-        document.getElementById('total').textContent = '$' + total.toFixed(2);
-    }
-<<<<<<< Updated upstream
-  });
-
-=======
->>>>>>> Stashed changes
-=======
 });
->>>>>>> Stashed changes
