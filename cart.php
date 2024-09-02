@@ -42,7 +42,7 @@
             </ul>
         </div>
         <div class="right-section">
-            <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+            <a href="cart.php" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
             <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
         </div>
     </div>
@@ -208,7 +208,7 @@
                     <p>Shipping: Calculated at the next step</p>
                     <p>Total: $867</p>
                 </div>
-                <a href="checkout.php" class="checkout-btn-link">
+                <a href="cheakout.php" class="checkout-btn-link">
                     <button class="checkout-btn">Continue to checkout</button>
                 </a>
             </div>
