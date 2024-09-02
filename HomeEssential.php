@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="HomeEssential.js">
     <script src="HomeEssential.js"></script>
     <script src="HomeEssential.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
