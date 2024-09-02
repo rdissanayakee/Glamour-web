@@ -76,7 +76,7 @@
                                 <p>7800.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     s
@@ -92,7 +92,7 @@
                                 <p>6750.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Elegant Ivory Sandals&quantity=1&price=6750.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -112,7 +112,7 @@
                                 <p>5890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Nude Glam Mules&quantity=1&price=5890.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -132,7 +132,7 @@
                                 <p>6890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Tan Strappy Heels&quantity=1&price=6890.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -152,7 +152,7 @@
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -172,7 +172,7 @@
                                 <p>3450.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -192,7 +192,7 @@
                                 <p>6500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -212,7 +212,7 @@
                                 <p>5700.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -235,7 +235,7 @@
                                 <p>8500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -255,7 +255,7 @@
                                 <p>7890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -275,7 +275,7 @@
                                 <p>6750.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -295,7 +295,7 @@
                                 <p>4300.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -315,7 +315,7 @@
                                 <p>6740.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -335,7 +335,7 @@
                                 <p>5460.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -355,7 +355,7 @@
                                 <p>5890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -375,7 +375,7 @@
                                 <p>6890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Coral Chic Heels&quantity=1&price=7800.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">

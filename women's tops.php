@@ -79,7 +79,7 @@
                                 <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Patchwork Wrap Top&quantity=1&price=5600.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -99,7 +99,7 @@
                                 <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Ribbed Halter Crop&quantity=1&price=3500.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -119,7 +119,7 @@
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -139,7 +139,7 @@
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Ruched Tie-Front Blouse&quantity=1&price=4500.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -159,7 +159,7 @@
                                 <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -179,7 +179,7 @@
                                 <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -199,7 +199,7 @@
                                 <p>4590.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -219,7 +219,7 @@
                                 <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -242,7 +242,7 @@
                                 <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -262,7 +262,7 @@
                                 <p>4600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -282,7 +282,7 @@
                                 <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -302,7 +302,7 @@
                                 <p>5600.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -322,7 +322,7 @@
                                 <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -342,7 +342,7 @@
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"> <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -362,7 +362,7 @@
                                 <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -382,7 +382,7 @@
                                 <p>4670.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Cutout Seam Detail Top&quantity=1&price4500.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
