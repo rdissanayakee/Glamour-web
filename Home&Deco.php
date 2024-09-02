@@ -122,7 +122,7 @@
                                 <p>9,800 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=BCarrot's Den Vase Collection=1&price=9,800 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Carrot's Den Vase Collection=1&price=9,800 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
