@@ -163,7 +163,7 @@
                                 <p>2,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Black Crossbody Bag&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -183,7 +183,7 @@
                                 <p>6700 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Outlead Bag&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -203,7 +203,7 @@
                                 <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Messeger Bag&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -223,7 +223,7 @@
                                 <p>5,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Envelope Clutch Bag&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -246,7 +246,7 @@
                                 <p>2400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Darkbrown Bucket Belt&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -266,7 +266,7 @@
                                 <p>4200 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Lightbrown Bucket Belt&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -286,7 +286,7 @@
                                 <p>2,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Skinny Belt&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -306,7 +306,7 @@
                                 <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Fabric Belt&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -326,7 +326,7 @@
                                 <p>1,499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Trcuker Cap&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -346,7 +346,7 @@
                                 <p>2,990 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=White Sport Cap&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -366,7 +366,7 @@
                                 <p>999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Baseball Cap&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -386,7 +386,7 @@
                                 <p>1,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Apple Cap&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">

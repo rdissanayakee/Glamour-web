@@ -165,7 +165,7 @@
                                 <p>9999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Analog Watch&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -185,7 +185,7 @@
                                 <p>15,799 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Hybrid Watch&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -205,7 +205,7 @@
                                 <p>18,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name= Automatic Watch&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -225,7 +225,7 @@
                                 <p>49 999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Solar Watch&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -245,7 +245,7 @@
                                 <p>2400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Pink Girl's Watch&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -265,7 +265,7 @@
                                 <p>1400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Pink Girl's Watch&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -285,7 +285,7 @@
                                 <p>8400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Kids Smart Watch&quantity=1&price=56400.00 LKR"> <i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -305,7 +305,7 @@
                                 <p>1800 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=26&item_name=Charm Necklace&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=26&item_name=Purple Kids Watch&quantity=1&price=56400.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
