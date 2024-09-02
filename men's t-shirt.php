@@ -23,12 +23,12 @@
     <nav class="navbar">
         <div class="container">
             <div class="left-section">
-                <a href="index.html" class="brand">Glamour</a>
+                <a href="index.php" class="brand">Glamour</a>
 
                 <ul class="nav-links">
                     <li><a href="men's collection.php">MEN</a></li>
                     <li><a href="women's collection.php">WOMEN</a></li>
-                    <li><a href="kids.phpl">KIDS</a></li>
+                    <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
@@ -43,7 +43,7 @@
             </div>
             <div class="right-section">
                 <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
-                <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+                <a href="login.php" class="nav-icon"><i class="fas fa-user"></i> Login</a>
             </div>
         </div>
     </nav>
@@ -414,11 +414,11 @@
 					<div class="footer-section">
 						<h3>COMPANY & OUR POLICIES</h3>
 						<ul>
-							<li><a href="contact us.html">Contact us Us</a></li>
-							<li><a href="contact us.html">Privacy Policy</a></li>
-							<li><a href="contact us.html">Shipping Policy</a></li>
-							<li><a href="contact us.html">Returns & Exchanges Policy</a></li>
-							<li><a href="contact us.html">Terms of Service</a></li>
+							<li><a href="contact us.php">Contact us Us</a></li>
+							<li><a href="contact us.php">Privacy Policy</a></li>
+							<li><a href="contact us.php">Shipping Policy</a></li>
+							<li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+							<li><a href="contact us.php">Terms of Service</a></li>
 						</ul>
 					</div>
 					<div class="footer-section">
