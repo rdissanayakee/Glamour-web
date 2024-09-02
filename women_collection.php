@@ -14,6 +14,12 @@
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
     <link rel="stylesheet" href="women's collection.css">
     <script src="women's collection.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -111,7 +117,7 @@
                                 <p>3850.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=1&item_name=Basic instinct midi dress&quantity=1&price=3850.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -138,7 +144,7 @@
                                 <p>3450.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=2&item_name=High neck navy blue dress&quantity=1&price=3450.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -159,7 +165,7 @@
                                 <p>5780.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=3&item_name=Cute high waist jeans&quantity=1&price=5780.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -180,7 +186,7 @@
                                 <p>4500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=4&item_name=Womens sweatpants&quantity=1&price=4500.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -201,7 +207,7 @@
                                 <p>2450.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=5&item_name=Lemon lime eyelet crop top&quantity=1&price=2450.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -222,7 +228,7 @@
                                 <p>2250.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=6&item_name=Backless tank top&quantity=1&price=2250.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -243,7 +249,7 @@
                                 <p>6750.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=7&item_name=White ballet flats&quantity=1&price=6750.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -264,7 +270,7 @@
                                 <p>6500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=8&item_name=Black suede heels&quantity=1&price=6500.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -328,20 +334,20 @@
 				</div>
 			</footer>
             <script>
-                // JavaScript function to handle the form submission without page reload
-                function addToCart(form) {
-                    var formData = new FormData(form);
-                    fetch('add_to_cart.php', {
-                        method: 'POST',
-                        body: formData
-                    }).then(response => response.text()).then(data => {
-                        // Handle the response from the server
-                        alert('Product added to cart successfully!');
-                    }).catch(error => {
-                        console.error('Error adding product to cart:', error);
-                    });
-                    return false; // Prevent the default form submission
-                }
-            </script>
+        // JavaScript function to handle the form submission without page reload
+        function addToCart(form) {
+            var formData = new FormData(form);
+            fetch('add_to_cart.php', {
+                method: 'POST',
+                body: formData
+            }).then(response => response.text()).then(data => {
+                // Handle the response from the server
+                alert('Product added to cart successfully!');
+            }).catch(error => {
+                console.error('Error adding product to cart:', error);
+            });
+            return false; // Prevent the default form submission
+        }
+    </script>
 		</body>
 </html>
