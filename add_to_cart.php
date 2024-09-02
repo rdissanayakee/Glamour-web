@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "root"; // your database username
+$username = "root"; // your database usernames
 $password = ""; // your database password
 $dbname = "addtocart"; // your database name
 
