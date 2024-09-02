@@ -70,9 +70,9 @@
 	<!-- Secondary Navigation Bar -->
     <nav class="secondary-navbar">
         <ul class="nav-links1">
-            <li><a href="Bedding.html">BEDDING</a></li>
-            <li><a href="Bathwear.html">BATH WEAR</a></li>
-            <li><a href="HomeEssential.html">HOME ESSENTIAL</a></li>
+        <li><a href="Bedding.php">BEDDING</a></li>
+        <li><a href="Bathwear.php">BATH WEAR</a></li>
+        <li><a href="HomeEssential.php">HOME ESSENTIAL</a></li>
         </ul>
     </nav>
     <br>
