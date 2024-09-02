@@ -15,7 +15,7 @@
 
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
 
 <body>
     <!-- Navigation Bar -->
@@ -41,7 +41,7 @@
             </div>
             <div class="right-section">
                 <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
-                <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+                <a href="login1.php" class="nav-icon"><i class="fas fa-user"></i> Login</a>
             </div>
         </div>
     </nav>
@@ -55,7 +55,7 @@
                 <h1>Men</h1>
                 <div class="details">
                     <h2>Men</h2>
-                    <p>Shop Now >></p>
+                    <p>Shop Now ></p>
                 </div>
             </div>
             <div class="slider-img">
