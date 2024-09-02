@@ -46,7 +46,7 @@
             </div>
             <div class="right-section">
                 <a href="cart.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
-                <a href="login.html" class="nav-icon"><i class="fas fa-user"></i> Login</a>
+                <a href="login1.php" class="nav-icon"><i class="fas fa-user"></i> Login</a>
             </div>
         </div>
     </nav>
