@@ -25,7 +25,7 @@
                 <ul class="nav-links">
                     <li><a href="men's collection.php">MEN</a></li>
                     <li><a href="women_collection.php">WOMEN</a></li>
-                    <li><a href="kids.phpl">KIDS</a></li>
+                    <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>

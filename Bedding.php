@@ -28,7 +28,7 @@
                 <ul class="nav-links">
                 <li><a href="men's collection.php">MEN</a></li>
                     <li><a href="women_collection.php">WOMEN</a></li>
-                    <li><a href="kids.phpl">KIDS</a></li>
+                    <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
                     <li><a href="accesories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
@@ -428,10 +428,10 @@
 						<h3>COMPANY & OUR POLICIES</h3>
 						<ul>
                         <li><a href="contact us.php">Contact Us</a></li>
-                        <li><a href="contact us.html">Privacy Policy</a></li>
-                        <li><a href="contact us.html">Shipping Policy</a></li>
-                        <li><a href="contact us.html">Returns & Exchanges Policy</a></li>
-                        <li><a href="contact us.html">Terms of Service</a></li>
+                        <li><a href="contact us.php">Privacy Policy</a></li>
+                        <li><a href="contact us.php">Shipping Policy</a></li>
+                        <li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+                        <li><a href="contact us.php">Terms of Service</a></li>
 						</ul>
 					</div>
 					<div class="footer-section">
