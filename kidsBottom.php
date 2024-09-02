@@ -87,11 +87,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -106,11 +101,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -137,11 +127,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -156,11 +141,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -187,11 +167,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -206,11 +181,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -237,11 +207,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -256,11 +221,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -287,11 +247,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -306,11 +261,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -337,11 +287,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -362,11 +307,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div> 
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -381,11 +321,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
@@ -412,11 +347,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -437,11 +367,6 @@
                             <h3 id="itemName"></h3>
                             <p>is added to cart!</p>
                         </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
-                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="product-item">
@@ -456,11 +381,6 @@
                             <div class="add-to-cart">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                        </div>
-                        <div class="popup-notification" id="popupNotification">
-                            <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
-                            <h3 id="itemName"></h3>
-                            <p>is added to cart!</p>
                         </div>
                         <div class="popup-notification" id="popupNotification">
                             <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
