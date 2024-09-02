@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chekout Page</title>
+    <title>Checkout Page</title>
     <link rel="stylesheet" href="cheakout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
-			
-	
-	
-
-    <link rel="stylesheet" href="cheakout.js">
+    <link rel="icon" type="image/png" href="website images/accessories images/logo.png">
     <script src="cheakout.js"></script>
-   
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
-     <!-- Navigation Bar -->
-     <nav class="navbar">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <div class="container">
             <div class="left-section">
                 <a href="index.php" class="brand">Glamour</a>
@@ -30,7 +24,7 @@
                     <li><a href="women_collection.php">WOMEN</a></li>
                     <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
-                    <li><a href="accesories.php">ACCESSORIES</a></li>
+                    <li><a href="accessories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
                     <li><a href="Aboutus.php">ABOUT US</a></li>
                     <li>
@@ -48,29 +42,28 @@
         </div>
     </nav>
 
-    <!-- Checkout  -->
-
-    <!--    checkout    step 1 -->
+    <!-- Checkout -->
 
     <div class="checkout-step1-wrapper">
         <div class="checkout-step1-container">
             <div class="checkout-step1-content">
                 <div class="form-step1-container">
                     <h2><i class="fas fa-clipboard-check"></i> Checkout</h2>
-                    <form id="checkout-step1-form">
+                    <!-- Updated form with action and method -->
+                    <form id="checkout-step1-form" action="check.php" method="POST">
                         <div class="form-step1-row">
                             <div class="form-step1-group">
                                 <label for="first-name" class="form-step1-label"><i class="fas fa-user"></i> First Name</label>
-                                <input type="text" id="first-name" name="firstName" class="form-step1-input" placeholder="First Name" required>
+                                <input type="text" id="first-name" name="first_name" class="form-step1-input" placeholder="First Name" required>
                             </div>
                             <div class="form-step1-group">
                                 <label for="last-name" class="form-step1-label"><i class="fas fa-user"></i> Last Name</label>
-                                <input type="text" id="last-name" name="lastName" class="form-step1-input" placeholder="Last Name" required>
+                                <input type="text" id="last-name" name="last_name" class="form-step1-input" placeholder="Last Name" required>
                             </div>
                         </div>
                         <div class="form-step1-group">
                             <label for="address" class="form-step1-label"><i class="fas fa-map-marker-alt"></i> Shipping Address</label>
-                            <input type="text" id="address" name="address" class="form-step1-input" placeholder="Address" required>
+                            <input type="text" id="address" name="shipping_address" class="form-step1-input" placeholder="Address" required>
                         </div>
                         <div class="form-step1-row">
                             <div class="form-step1-group">
@@ -90,7 +83,6 @@
                                     <option value="Eastern Province">Eastern Province</option>
                                     <option value="North Central Province">North Central Province</option>
                                     <option value="Uva Province">Uva Province</option>
-                                    <option value="Southern Province">Southern Province</option>
                                 </select>
                             </div>
                             <div class="form-step1-group">
@@ -114,7 +106,11 @@
                         </div>
                         <br>
                         <div class="form-step1-group full-width">
+<<<<<<< Updated upstream
                             <button type="onclick" class="button-step1"><i class="fas fa-truck"></i>Order Placed</button>
+=======
+                            <button type="submit" class="button-step1"><i class="fas fa-truck"></i> Continue to Shipping</button>
+>>>>>>> Stashed changes
                         </div>
                     </form>
                 </div>
@@ -140,37 +136,37 @@
         </div>
     </div>
   
-  <footer class="footer">
-				<div class="footer-container">
-					<div class="footer-section">
-						<h2 class="footer-brand">GLAMOUR</h2>
-						<p>GLAMOUR, retail chain takes pride in its Sri Lankan roots but offers a world-class retail experience that drives customer loyalty while simultaneously setting new benchmarks in customer-centricity to take the art of retailing to a new level.</p>
-					</div>
-					<div class="footer-section">
-						<h3>COMPANY & OUR POLICIES</h3>
-						<ul>
-                        <li><a href="contact us.php">Contact Us</a></li>
-                        <li><a href="contact us.php">Privacy Policy</a></li>
-                        <li><a href="contact us.php">Shipping Policy</a></li>
-                        <li><a href="contact us.php">Returns & Exchanges Policy</a></li>
-                        <li><a href="contact us.php">Terms of Service</a></li>
-						</ul>
-					</div>
-								<div class="footer-section">
-						<h3>CONTACT US</h3>
-						<p>Order Updates - (077) 053 3426</p>
-						<p>General Email - glamour@gmail.com</p>
-					</div>
-				</div>
-				<div class="footer-bottom">
-					<div class="social-icons">
-						<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
-						<a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-					</div>
-					<p>&copy; 2024 Online Store. All rights reserved</p>
-				</div>
-			</footer>
-		</body>
-	</html>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-brand">GLAMOUR</h2>
+                <p>GLAMOUR, retail chain takes pride in its Sri Lankan roots but offers a world-class retail experience that drives customer loyalty while simultaneously setting new benchmarks in customer-centricity to take the art of retailing to a new level.</p>
+            </div>
+            <div class="footer-section">
+                <h3>COMPANY & OUR POLICIES</h3>
+                <ul>
+                    <li><a href="contact us.php">Contact Us</a></li>
+                    <li><a href="contact us.php">Privacy Policy</a></li>
+                    <li><a href="contact us.php">Shipping Policy</a></li>
+                    <li><a href="contact us.php">Returns & Exchanges Policy</a></li>
+                    <li><a href="contact us.php">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONTACT US</h3>
+                <p>Order Updates - (077) 053 3426</p>
+                <p>General Email - glamour@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2024 Online Store. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
