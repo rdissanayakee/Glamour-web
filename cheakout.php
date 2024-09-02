@@ -106,11 +106,7 @@
                         </div>
                         <br>
                         <div class="form-step1-group full-width">
-<<<<<<< Updated upstream
                             <button type="onclick" class="button-step1"><i class="fas fa-truck"></i>Order Placed</button>
-=======
-                            <button type="submit" class="button-step1"><i class="fas fa-truck"></i> Continue to Shipping</button>
->>>>>>> Stashed changes
                         </div>
                     </form>
                 </div>
