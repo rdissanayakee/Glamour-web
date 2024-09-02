@@ -83,7 +83,7 @@
                                 <p>3500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Olive Green Pants=1&price=3500.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Olive Green Pants&quantity=1&price=3500.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -103,7 +103,7 @@
                                 <p>3460.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Brown Lace-Up Pantst=1&price=3460.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Brown Lace-Up Pants&quantity=1&price=3460.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -123,7 +123,7 @@
                                 <p>3890.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Ripped Denim Shorts=1&price=3890.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Ripped Denim Shorts&quantity=1&price=3890.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -143,7 +143,7 @@
                                 <p>4560.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -163,7 +163,7 @@
                                 <p>3450.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans &quantity=1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -183,7 +183,7 @@
                                 <p>2450.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -203,7 +203,7 @@
                                 <p>3250.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -223,7 +223,7 @@
                                 <p>4670.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans &quantity=1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -246,7 +246,7 @@
                                 <p>4750.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -266,7 +266,7 @@
                                 <p>2500.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans &quantity=1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -286,7 +286,7 @@
                                 <p>5200.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -306,7 +306,7 @@
                                 <p>5670.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -326,7 +326,7 @@
                                 <p>3460.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -346,7 +346,7 @@
                                 <p>3860.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -366,7 +366,7 @@
                                 <p>5780.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans&quantity =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -386,7 +386,7 @@
                                 <p>2460.00 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans =1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="add_to_cart2.php?item_id=1&item_name=Distressed Jeans &quantity=1&price=4560.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                             <div class="popup-notification" id="popupNotification">
                                 <img src="website images/Women images/add to cart icon.gif" alt="Success" class="popup-icon">
