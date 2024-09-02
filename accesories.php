@@ -19,7 +19,12 @@
 
     <link rel="stylesheet" href="accesories.css">
     <script src="accesories.js"></script>
-    
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>
@@ -326,5 +331,6 @@
                 <p>&copy; 2024 Online Store. All rights reserved</p>
             </div>
         </footer>
+       
     </body>
 </html>

@@ -13,6 +13,12 @@
 			
 <link rel="stylesheet" href="watches.css">
     <script src="watches.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>

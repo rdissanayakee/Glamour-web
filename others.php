@@ -15,6 +15,12 @@
     <link rel="icon" type="image/png" href="website images/accesories images/logo.png">
     <link rel="stylesheet" href="others.css">
     <script src="others.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>

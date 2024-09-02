@@ -14,14 +14,14 @@ if (isset($_GET['item_id'])) {
     $quantity = $_GET['quantity'];
     $price = $_GET['price'];
 }else{
-    header('location: women_collection.php?error=request_error');
+    header('location: cart.php?error=request_error');
 }
 
 $insert = "INSERT INTO carts(itemId, itemName, quantity, itemPrice) VALUES('$id', '$itemName', '$quantity', '$price');";
 
 if ($conn->query($insert) === false) {
-    header('location: women_collection.php?error=query_failed');
+    header('location: cart.php?error=query_failed');
 
 } else {
-    header('location: women_collection.php?error=none');
+    header('location: cart.php?error=none');
 }
