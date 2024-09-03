@@ -229,7 +229,7 @@
                   <p>4290.00 LKR</p>
               </div>
               <div class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
+              <a href="add_to_cart2.php?item_id=1&item_name=Floral Sundress&quantity=1&price=4290.00 LKR"><i class="fas fa-shopping-cart"></i></a>
               </div>
           </div>
       </div>
@@ -244,7 +244,7 @@
                   <p>3260.00 LKR</p>
               </div>
               <div class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
+              <a href="add_to_cart2.php?item_id=2&item_name=White Satin Slip Dress&quantity=1&price=3260.00 LKR"><i class="fas fa-shopping-cart"></i></a>
               </div>
           </div>
       </div>
@@ -259,7 +259,7 @@
                   <p>4100.00 LKR</p>
               </div>
               <div class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
+              <a href="add_to_cart2.php?item_id=3&item_name=Black Lace Corset Dress&quantity=1&price=4100.00 LKR"><i class="fas fa-shopping-cart"></i></a>
               </div>
           </div>
       </div>
@@ -274,7 +274,7 @@
                 <p>4670.00 LKR</p>
             </div>
             <div class="add-to-cart">
-                <i class="fas fa-shopping-cart"></i>
+            <a href="add_to_cart2.php?item_id=4&item_name=Ivory Embrace bodycon Dress&quantity=1&price=4670.00 LKR"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@
               <p>3999 LKR</p>
           </div>
           <div class="add-to-cart">
-              <i class="fas fa-shopping-cart"></i>
+          <a href="add_to_cart2.php?item_id=5&item_name=White Bottom&quantity=1&price=3999.00 LKR"><i class="fas fa-shopping-cart"></i></a>
           </div>
       </div>
   </div>
@@ -304,7 +304,7 @@
                 <p>6500 LKR</p>
             </div>
             <div class="add-to-cart">
-                <i class="fas fa-shopping-cart"></i>
+            <a href="add_to_cart2.php?item_id=6&item_name=Green Cargo Sweat Short Tracksuit&quantity=1&price=6500.00 LKR"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </div>
@@ -319,7 +319,7 @@
                 <p>3999 LKR</p>
             </div>
             <div class="add-to-cart">
-                <i class="fas fa-shopping-cart"></i>
+            <a href="add_to_cart2.php?item_id=7&item_name=Green Colerless Printed T-shit&quantity=1&price=3999.00 LKR"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </div>
@@ -334,7 +334,7 @@
               <p>7499 LKR</p>
           </div>
           <div class="add-to-cart">
-              <i class="fas fa-shopping-cart"></i>
+          <a href="add_to_cart2.php?item_id=8&item_name=Jersy T-shirtg&quantity=1&price=7499.00 LKR"><i class="fas fa-shopping-cart"></i></a>
           </div>
       </div>
   </div>
