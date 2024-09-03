@@ -112,7 +112,8 @@
                                 <p>3,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -133,7 +134,8 @@
                                 <p>2,900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -154,7 +156,8 @@
                                 <p>1,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -175,7 +178,8 @@
                                 <p>2,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -196,7 +200,8 @@
                                 <p>499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -217,7 +222,8 @@
                                 <p>3,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               \
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -238,7 +244,8 @@
                                 <p>2,400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div> 
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -260,7 +267,8 @@
                                 <p>2,500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
