@@ -94,7 +94,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=COCO CHANEL paris perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=AERIN Amber musk perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=TOMFORD Peach perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=D'ior SAKURA Perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=VERSACE men's perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=LOLLIA goldenrose perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=TOMFORG Cherry perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=GoodGirl Blush Perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=MARC JACOSS Daisy perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=ELIE SAAB Vanilla perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Victoria's Secret Bomshell&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Victoria's Secret rose perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                             </div>
                             <div class="add-to-cart">
                                >
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Victoria's Secret Peony perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Victoria's Secret love perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Victoria's Secret bundle pack&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -349,7 +349,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=IDYLL Orchid perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
