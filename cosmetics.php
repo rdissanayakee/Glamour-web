@@ -16,6 +16,12 @@
 
     <link rel="stylesheet" href="cosmetics.css">
     <script src="cosmetics.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>

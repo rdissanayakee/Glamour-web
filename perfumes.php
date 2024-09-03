@@ -16,6 +16,12 @@
 
     <link rel="stylesheet" href="perfumes.css">
     <script src="perfumes.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>

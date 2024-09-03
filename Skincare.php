@@ -16,6 +16,12 @@
 
     <link rel="stylesheet" href="skincare.css">
     <script src="skincare.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>

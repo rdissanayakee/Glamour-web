@@ -16,6 +16,12 @@
 
     <link rel="stylesheet" href="haircare.css">
     <script src="haircare.js"></script>
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
     
 </head>
 <body>
@@ -94,7 +100,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=Briogeo long&thick shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Briogeo long&thick shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +117,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=Briogeo clean&clear shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Briogeo clean&clear shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -128,8 +134,8 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology lotus bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
-                            </div>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology lotus bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
+                            </div
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -145,7 +151,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology honey bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology honey bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +168,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology whiterose bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HAIRbiology whiterose bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +185,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=DOVE glowing shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=DOVE glowing shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +202,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA leave-on conditinor&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA leave-on conditinor&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +219,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA nutri-plenish pack&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA nutri-plenish pack&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +236,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA hydrating shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA hydrating shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -247,7 +253,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=Ouidad hair cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Ouidad hair cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -264,7 +270,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=POMELO-CO haircare duo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=POMELO-CO haircare duo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +287,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=OLAPLEX haircream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=OLAPLEX haircream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -298,7 +304,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=Happy Nation shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Happy Nation shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -315,7 +321,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=COCO&EVE hair mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=COCO&EVE hair mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -332,7 +338,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA healthyhair shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=AVEDA healthyhair shampoo&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -349,7 +355,7 @@
                             </div>
                             <div class="add-to-cart">
                               
-                                <a href="add_to_cart2.php?item_id=35&item_name=SHOTS hair perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=SHOTS hair perfume&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
