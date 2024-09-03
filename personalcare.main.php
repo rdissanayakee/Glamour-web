@@ -12,7 +12,13 @@
 	<link rel="icon" type="image/png" href="website images/accesories images/logo.png">		
     <link rel="stylesheet" href="personalcare.main.css">
     <script src="personalcare.main.js"></script>
-    <script src="personalcare.main.js"></script>
+    
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <button id="scrollToTopButton" class="scroll-to-top">↑</button>

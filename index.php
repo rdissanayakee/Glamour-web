@@ -16,6 +16,12 @@
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
 
 <body>
     <!-- Navigation Bar -->
