@@ -113,7 +113,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
