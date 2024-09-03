@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="men's t-shirt.css">
     <script src="men's t-shirt.js"></script>
     <script src="men's t-shirt.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
   
 </head>
 <body>
@@ -80,7 +87,7 @@
                                 <p>5500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Green and Beidge Cloerd T-Shir&quantity=1&price=5500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -100,7 +107,7 @@
                                 <p>3999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Green Colerless Printed T-shit&quantity=1&price=3999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -120,7 +127,7 @@
                                 <p>5600 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Summer Floreled Printed Shirt&quantity=1&price=5600 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -140,7 +147,7 @@
                                 <p>8,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Addidas Hoodie&quantity=1&price=8,999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
 
@@ -161,7 +168,7 @@
                                 <p>7499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Jersy T-shirt&quantity=1&price=7499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -181,7 +188,7 @@
                                 <p>9990 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Denim Hoodies&quantity=1&price=9990 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -201,7 +208,7 @@
                                 <p>13,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=White and blue mixed Shirt&quantity=1&price=13,999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -221,7 +228,7 @@
                                 <p>3950LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=lack Anime Printed T-shirt&quantity=1&price=3950LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -244,7 +251,7 @@
                                 <p>3950 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Cream Anime Printed T-Shirt&quantity=1&price=3950 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -264,7 +271,7 @@
                                 <p>4920 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=White and Green Straps Shirt&quantity=1&price=4920 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -284,7 +291,7 @@
                                 <p>6580 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=White Long Slevee Shirt&quantity=1&price=6580 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -304,7 +311,7 @@
                                 <p>6500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Blue Long Slevee Button Up Shirt&quantity=1&price=6500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -324,7 +331,7 @@
                                 <p>3499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Brown Colerless T-shirt&quantity=1&price=3499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -344,7 +351,7 @@
                                 <p>3999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Black Printed T-Shirt&quantity=1&price=3999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -364,7 +371,7 @@
                                 <p>4999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Black Botton Up Shirt&quantity=1&price=4999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -384,7 +391,7 @@
                                 <p>3900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Beidge Knitwear&quantity=1&price=3900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>

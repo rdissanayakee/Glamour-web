@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="men's bottom.css">
     <script src="men's bottom.js"></script>
     <script src="men's bottom.js"></script>
+
+    <style>
+        a{
+            text-decoration: none !important;
+            color: white;
+        }
+    </style>
+
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -78,7 +86,7 @@
                                 <p>8950 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=11&item_name= Canyon Light Worn Denim&quantity=1&price=8950 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -98,7 +106,7 @@
                                 <p>5900 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Blue Denim Short&quantity=1&price=5900 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -118,7 +126,7 @@
                                 <p>6500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Cargo Short Loose Fit&quantity=1&price=6500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -138,7 +146,7 @@
                                 <p>8999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Cream Denim Short&quantity=1&price=8999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +161,7 @@
                                 <p>7499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Pull & Bear Ripped Jogger Jeans&quantity=1&price=7499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -173,7 +181,7 @@
                                 <p>3990 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Green Straight LEg Pant&quantity=1&price=3990 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -193,7 +201,7 @@
                                 <p>9990 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Light Wash Extreme Baggy Jeans&quantity=1&price=9990 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -206,14 +214,14 @@
                         <div class="product-item">
                             <div class="product-img-wrapper">
                                 <img src="website images/men'scollection/bottom8.1.jpg" alt="Product 1" class="product-img primary">
-                                <img src="website images/men'scollection/bootom8.2.jpg"Product 1 Hover" class="product-img secondary">
+                                <img src="website images/men'scollection/bootom8.2.jpg" alt="Product 1 Hover" class="product-img secondary">
                             </div>
                             <div class="product-info">
                                 <h5>Washed Mid-waist Denim</h5>
                                 <p>7999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Washed Mid-waist Denim&quantity=1&price=7999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -236,7 +244,7 @@
                                 <p>2990 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name= Navy Drawstring Swim Short&quantity=1&price=2990 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -251,7 +259,7 @@
                                 <p>3980 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Black Gym Shorts&quantity=1&price=3980 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -271,7 +279,7 @@
                                 <p>6500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Classic Cuffed Jogger Grey Marle&quantity=1&price=6500 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -291,7 +299,7 @@
                                 <p>8999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name= Baggy Jeans with Beaded Pockets&quantity=1&price=8999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -311,7 +319,7 @@
                                 <p>9499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Distressed And Ripped Baggy Jean&quantity=1&price=9499 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -331,7 +339,7 @@
                                 <p>6999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Trendy Loose Fit Cargo Pants&quantity=1&price=6999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -351,7 +359,7 @@
                                 <p>13,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Dark Blue Straight leg Pants&quantity=1&price=13,999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -371,7 +379,7 @@
                                 <p>7999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                            <a href="add_to_cart2.php?item_id=11&item_name=Black Denim&quantity=1&price=7999 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
