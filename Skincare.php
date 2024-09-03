@@ -94,7 +94,8 @@
                                 <p>10,599 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -110,7 +111,8 @@
                                 <p>500 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -126,7 +128,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -142,7 +145,8 @@
                                 <p>2,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -157,7 +161,8 @@
                                 <p>1499 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -173,7 +178,8 @@
                                 <p>3,000 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -189,7 +195,8 @@
                                 <p>1,999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -205,7 +212,8 @@
                                 <p>999 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -221,7 +229,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -237,7 +246,8 @@
                                 <p>2400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                             
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -252,7 +262,8 @@
                                 <p>1400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -267,7 +278,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -283,7 +295,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -299,7 +312,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -315,7 +329,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                               
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
@@ -331,7 +346,8 @@
                                 <p>3400 LKR</p>
                             </div>
                             <div class="add-to-cart">
-                                <i class="fas fa-shopping-cart"></i>
+                                
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
                     </div>
