@@ -141,7 +141,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=DREAM eye cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=DREAM eye cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -163,7 +163,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=BOBBIE BROWN foumdation&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=BOBBIE BROWN foumdation&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -185,7 +185,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=HUDA BEAUTY lipkit&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HUDA BEAUTY lipkit&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -207,7 +207,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=soft pink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=soft pink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -229,7 +229,7 @@
                             </div>
                             <div class="add-to-cart">
                                \
-                                <a href="add_to_cart2.php?item_id=35&item_name=HUXLEY face mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HUXLEY face mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -251,7 +251,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=LANEIGE lip barm bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=LANEIGE lip barm bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div> 
                         </div>
                         <div class="popup-notification" id="popupNotification">
@@ -274,7 +274,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=LAVENDRA sugar body scrub&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=LAVENDRA sugar body scrub&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                         <div class="popup-notification" id="popupNotification">

@@ -101,7 +101,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=2Chic skincare bundle&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C face mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C face mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=GLOW skin serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=GLOW skin serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=COSHORI eye mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=COSHORI eye mask&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=GLOW  brightining serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=GLOW  brightining serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=KYLIESKIN body wash&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=KYLIESKIN body wash&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name= FRESH face cleanser&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name= FRESH face cleanser&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=KYLIESKIN eye cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=KYLIESKIN eye cream&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=SALTA body oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=SALTA body oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                             </div>
                             <div class="add-to-cart">
                              
-                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C body tonner&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C body tonner&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C cleansing barm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Vitamin C cleansing barm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=VITA tonner pads&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=VITA tonner pads&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=NAVUN facewash&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=NAVUN facewash&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -319,7 +319,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=Foster LAB serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Foster LAB serum&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=PACIFICA face cleanser&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=PACIFICA face cleanser&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -353,7 +353,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=CONSEDA shower Gel&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=CONSEDA shower Gel&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>

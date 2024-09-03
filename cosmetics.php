@@ -100,7 +100,7 @@
                             </div>
                             <div class="add-to-cart">
                                
-                                <a href="add_to_cart2.php?item_id=35&item_name=BOBBIE BROWN Foundation&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=BOBBIE BROWN Foundation&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=HUDABEUATY lipkit&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=HUDABEUATY lipkit&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=ESSIE Softpink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=ESSIE Softpink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=Doublewear foundation liquid&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=Doublewear foundation liquid&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=LANEIGE Peach lipbarm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=LANEIGE Peach lipbarm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=SHEGLAM Lip oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=SHEGLAM Lip oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL red matt lipstick&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL red matt lipstick&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=GISON pink lip oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=GISON pink lip oil&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=NARS Foundation liquid pack&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=NARS Foundation liquid pack&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=O.P.I pink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=O.P.I pink nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL Blue nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL Blue nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL maroon nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL maroon nail polish&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=MARK JACOBS Thick maskara&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=MARK JACOBS Thick maskara&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -321,7 +321,7 @@
                             </div>
                             <div class="add-to-cart">
                                 
-                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL Eye liner&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=CHENEL Eye liner&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -338,7 +338,7 @@
                             </div>
                             <div class="add-to-cart">
                               \
-                                <a href="add_to_cart2.php?item_id=35&item_name=NARS eyeshadow palate&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=NARS eyeshadow palate&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                             </div>
                             <div class="add-to-cart">
                                \
-                                <a href="add_to_cart2.php?item_id=35&item_name=PHYTO-GLOW lip barm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i>
+                                <a href="add_to_cart2.php?item_id=35&item_name=PHYTO-GLOW lip barm&quantity=1&price=10,599.00 LKR"><i class="fas fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
