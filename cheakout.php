@@ -24,7 +24,7 @@
                     <li><a href="women_collection.php">WOMEN</a></li>
                     <li><a href="kids.php">KIDS</a></li>
                     <li><a href="Home&Deco.php">HOME & DECO</a></li>
-                    <li><a href="accessories.php">ACCESSORIES</a></li>
+                    <li><a href="accesories.php">ACCESSORIES</a></li>
                     <li><a href="personalcare.main.php">PERSONAL CARE</a></li>
                     <li><a href="Aboutus.php">ABOUT US</a></li>
                     <li>
